@@ -177,7 +177,7 @@ total += 10;
 }
 alert("El total es: " + total); // "El total es: 50" `
 
-## switch
+## La instrucción switch
 
 La sintaxis incluye la palabra clave switch seguida de la expresión entre
 paréntesis. Los posibles valores se listan usando la palabra clave case, tal como muestra el
