@@ -56,7 +56,8 @@ if (true) {
 let y = 20;
 var z = 30;
 console.log(x + y + z);
-// → 60
+  // → 60
+  
 }
 // y no es visible desde aqui
 console.log(x + z);
