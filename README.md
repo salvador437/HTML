@@ -1,4 +1,5 @@
 ## Estudio de JAVASCRIPT
+
 # Coerción en Javascript 👨🏻‍🎓
  
  La coerción de tipos hace referencia a la conversión automática de tipos de datos que se produce en JavaScript cuando se utilizan juntos diferentes tipos de datos en una operación. Por ejemplo, si se suman un número y una cadena, JavaScript convertirá automáticamente el número en una cadena para realizar la operación.
