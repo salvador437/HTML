@@ -163,8 +163,40 @@ Operador || (OR)
 
     El cortocircuito de los operadores lógicos permite a JavaScript optimizar la evaluación de expresiones, evitando el trabajo innecesario y permitiendo patrones útiles, como la asignación de valores por defecto o la ejecución condicional de código.
 
+## La instrucción "for"
 
- 
+La instrucción for ejecuta el código entre llaves mientras la condición es verdadera. Usa la sintaxis for(inicialización; condición incremento). El primer parámetro
+establece los valores iniciales del bucle, el segundo parámetro es la condición que queremos
+comprobar y el último parámetro es una instrucción que determina cómo van a evolucionar
+los valores iniciales en cada ciclo.
+
+
+ `var total = 0;
+for (var f = 0; f < 5; f++) {
+total += 10;
+}
+alert("El total es: " + total); // "El total es: 50" `
+
+## switch
+
+La sintaxis incluye la palabra clave switch seguida de la expresión entre
+paréntesis. Los posibles valores se listan usando la palabra clave case, tal como muestra el
+siguiente ejemplo.
+
+` var mivariable = 8;
+switch(mivariable) {
+case 5:
+alert("El número es cinco");
+break;
+case 8:
+alert("El número es ocho");
+break;
+case 10:
+alert("El número es diez");
+break;
+default:
+alert("El número es " + mivariable);
+}  `
 
 
 
