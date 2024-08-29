@@ -1,12 +1,12 @@
-## Estudio de JAVASCRIPT
+# Estudio de JAVASCRIPT
 
-# Coerción en Javascript 👨🏻‍🎓
+## Coerción en Javascript 👨🏻‍🎓
  
  La coerción de tipos hace referencia a la conversión automática de tipos de datos que se produce en JavaScript cuando se utilizan juntos diferentes tipos de datos en una operación. Por ejemplo, si se suman un número y una cadena, JavaScript convertirá automáticamente el número en una cadena para realizar la operación.
 
 
 
-# Casting 👨🏻‍🎓
+## Casting 👨🏻‍🎓
 
 Por otro lado, la conversión de tipos se refiere a la conversión explícita de tipos de datos. Esto se hace usando funciones de conversión como Number() , String() , Boolean() y Symbol()
 
@@ -36,7 +36,7 @@ Por otro lado, la conversión de tipos se refiere a la conversión explícita de
   
 `let value = 0; console.log(Boolean(value)); // false value = "hello"; console.log(Boolean(value)); // true value = undefined; console.log(Boolean(value)); // false value = {}; console.log(Boolean(value)); // true value = -1; console.log(Boolean(value)); // true`
 
- # Consejo profesional: 👨🏻‍🎓
+ ## Consejo profesional: 👨🏻‍🎓
 
 Utilice la comparación de igualdad estricta === en lugar de la comparación de igualdad abstracta == . Evite confiar en la coerción de tipos implícita de JavaScript, especialmente en operaciones aritméticas, y siempre use la conversión de tipos cuando sea necesario.
 
@@ -44,7 +44,7 @@ Utilice la comparación de igualdad estricta === en lugar de la comparación de 
 -----------
 
 
-# Hoisting 👨🏻‍🎓
+## Hoisting 👨🏻‍🎓
 
 Hoisting es un término que no encontrará utilizado en ninguna  especificación previa a la Especificación del Lenguaje ECMAScript® 2015. El concepto de Hoisting fue pensado como una manera general de referirse a cómo funcionan los contextos de ejecución en JavaScript (específicamente las fases de creación y ejecución). Sin embargo, el concepto puede ser un poco confuso al principio.
 
@@ -52,7 +52,7 @@ Conceptualmente, por ejemplo, una estricta definición de hoisting sugiere que l
 
 En JavaScript, la elevación es un comportamiento donde las declaraciones de variables y funciones se trasladan a la parte superior de su alcance que contiene durante la fase de compilación antes de ejecutar el código. Es importante señalar que sólo las declaraciones se izan, no las inicializaciones. Esto significa que puede utilizar variables y funciones antes de que se declaren en el código, lo que puede llevar a resultados inesperados si no se entiende correctamente.
 
-# Operador de coalescencia nula (??) 👨🏻‍🎓  
+## Operador de coalescencia nula (??) 👨🏻‍🎓  
 
 El operador nullish coalescing (??) (de coalescencia nula) es un operador lógico que retorna el operando de lado derecho cuando el operando de lado izquierdo es null o undefined, y en caso contrario retorna el operando de lado izquierdo. 
 
@@ -63,7 +63,7 @@ Introducido en ES2020, el operador de coalescencia nula (??) se presenta como un
 
 Un aspecto fundamental a destacar es que este operador no considera otros valores falsy como false, 0 o cadenas vacías. Se concentra únicamente en los valores null y undefined, ofreciendo un enfoque preciso para situaciones específicas.
 
-# Valores truthy y falsy 👨🏻‍🎓
+## Valores truthy y falsy 👨🏻‍🎓
 En contextos donde un boolean es requerido, suele ser común utilizar valores no booleanos. En este post te muestro cuáles son los valores equivalentes a false (falsy) y cuáles a true (truthy).
 
 En los contextos en que un valor booleano es lo esperado, y se utiliza en su lugar un valor de diferente tipo, JavaScript lo fuerza de manera implícita a comportarse como booleano.
@@ -95,7 +95,7 @@ Por consiguiente, el resto de los valores en JavaScript son convertibles a true,
 
 Esto es posible gracias al mecanismo de coerción. Básicamente, cuando lo que se espera es un booleano, JavaScript fuerza el valor al tipo boolean, en una operación equivalente a llamar la función global Boolean sobre él.
 
-# Prototypes en JavaScript 👨🏻‍🎓
+## Prototypes en JavaScript 👨🏻‍🎓
 
 Los objetos en JavaScript pueden tener asociado un Prototype o Prototipo, que actúa como una plantilla desde la que el objeto hereda propiedades y métodos.
 
@@ -115,7 +115,7 @@ A su vez, todos los objetos heredan de Object.prototype, que se encuentra en lo 
 
 Si exploramos por ejemplo el prototipo Date.prototype podemos ver los métodos que serán accesibles a cada instancia de Date:
 
-# Cortocircuito en operadores logicos 👨🏻‍🎓
+## Cortocircuito en operadores logicos 👨🏻‍🎓
 
 (OR) tienen un comportamiento de "cortocircuito". Este término se refiere a la forma en que estos operadores evalúan expresiones y deciden si necesitan evaluar ambas partes de la expresión o si pueden "cortar" la evaluación después de determinar el resultado final.
 Operador && (AND)
