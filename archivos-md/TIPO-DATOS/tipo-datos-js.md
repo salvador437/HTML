@@ -125,14 +125,14 @@ Como puedes ver, los casos donde se realiza la conversión de forma implícita s
 
 En Javascript hay que tener mucho cuidado con estas conversiones implícitas, ya que pueden generar resultados engañosos e impredecibles. Una buena práctica es utilizar siempre el comparador de identidad === en lugar del comparador de igualdad ==, ya que el primero compara también el tipo de dato, y por lo tanto evita muchos errores, pero esto lo veremos un poco más adelante, en el apartado de Operadores de comparación.
 
-## <span style="color:lime">¿Qué es un Symbol?</span>
+## <span style="color:orange">¿Qué es un Symbol?</span>
 En Javascript, existe un tipo de dato llamado <span style="color:orange">Symbol</span> que no suele ser muy conocido. Se trata de una forma alternativa de crear identificadores únicos que ofrece algunas ventajas y garantías sobre usar nombres o números.
 
-Antes de ver un ejemplo práctico, vamos a entender como funcionan los Symbol, ya que su funcionamiento es realmente simple:
+Antes de ver un ejemplo práctico, vamos a entender como funcionan los <span style="color:orange">Symbol</span>, ya que su funcionamiento es realmente simple:
 
 ![alt text](image-15.png)
 
-<span style="color:lime">lime</span>
+
 
 
 
