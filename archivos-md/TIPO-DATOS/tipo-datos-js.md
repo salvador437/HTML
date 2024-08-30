@@ -195,7 +195,13 @@ Al definir el símbolo Symbol.toPrimitive como función, mediante su parámetro 
 
 Por ejemplo, ahora podemos hacer lo siguiente:
 
-![alt text](./imagenes/image-24.png)
+![alt text](image-24.png)
+
+
+
+
+
+
 
 
 
