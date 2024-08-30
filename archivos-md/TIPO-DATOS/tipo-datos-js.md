@@ -1,9 +1,9 @@
-# Tipos de datos en Javascript
+# <span style="color:lime">Tipos de datos en Javascript</span>
 En Javascript disponemos de muchos tipos de datos, sin embargo, se suelen catalogar en dos grupos: tipos de datos primitivos (básicos) y tipos de datos no primitivos (complejos).
 
 ![alt text](image.png)
 
-## Tipos de datos primitivos
+## <span style="color:orange">Tipos de datos primitivos</span>
 Para empezar, nos centraremos en introducir los tipos de datos numéricos, de texto y booleanos, denominados los tipos de datos primitivos de Javascript. En próximos temas iremos descubriendo más detalles sobre cada uno de ellos y profundizando en cada sección.
 
 Para saber que tipo de dato tiene una variable, debemos observar el valor que le hemos dado.
@@ -18,14 +18,14 @@ Veamos un ejemplo en el que identificaremos que tipo de dato tiene cada variable
 
 Como se puede ver, estos son los tipos de datos primitivos básicos de Javascript. Cada uno de ellos tiene sus particularidades, sus características y una serie de operaciones que se puede realizar con ellos. Las iremos viendo a lo largo de los diferentes temas.
 
-## El tipo de dato undefined
+## <span style="color:orange">El tipo de dato undefined</span>
 Por otro lado, existe un tipo de dato especial denominado undefined (sin definir). Este es el valor que tienen las variables a las que no se les ha dado ningún valor específico (es decir, que están sin definir).
 
 ![alt text](image-2.png)
 
 Tanto notDefined como sinDefinir no se han definido y tienen el valor undefined.
 
-## El valor especial null
+## <span style="color:orange">El valor especial null</span>
 El valor especial null indica la ausencia intencional de información. Es decir, a diferencia de undefined, que indica que el valor aún no se ha definido, null indica que el valor ha sido definido explícitamente, pero representa una ausencia de valor.
 
 Veamos un ejemplo con la variable selectedUser de la reserva de una habitación, donde se puede observar el matiz:
@@ -34,7 +34,7 @@ Veamos un ejemplo con la variable selectedUser de la reserva de una habitación,
 
 En el primer caso, la variable selectedUser tiene el valor undefined indicando que posiblemente el usuario aún no ha sido seleccionado (no se ha realizado la asignación de un huésped a esa habitación). En el segundo caso, la variable selectedUser tiene el valor null, indicando que el usuario ha sido seleccionado intencionalmente, pero no es ningún usuario (la habitación está vacía, no tiene huésped).
 
-## Tipos de datos no primitivos
+## <span style="color:orange">Tipos de datos no primitivos</span>
 Al margen de los tipos de datos que hemos visto hasta ahora, en Javascript cualquier tipo de dato no primitivo se considera un object, lo que suele indicar que se trata de un tipo de dato más complejo.
 
 Veamos un ejemplo de tipos de datos no primitivos:
@@ -46,7 +46,7 @@ Nos encontraremos que muchas veces no resulta tan sencillo saber cuál es el tip
 
 Hay varias formas de saber que tipo de dato tiene una variable en Javascript.
 
-## El operador typeof
+## <span style="color:orange">El operador typeof</span>
 Si tenemos dudas, podemos utilizar la función typeof, que nos devuelve el tipo de dato primitivo de la variable que le pasemos por parámetro. Veamos que nos devuelve typeof sobre algunas variables:
 
 ![alt text](image-5.png)
@@ -59,7 +59,7 @@ OJO: La función typeof no nos servirá para variables con tipos de datos más c
 
 Como veremos a continuación, para esto puede ser mejor utilizar constructor.name.
 
-## La propiedad constructor.name
+## <span style="color:orange">La propiedad constructor.name</span>
 En muchos casos, nos encontraremos que typeof resulta insuficiente porque en tipos de datos más avanzados simplemente nos indica que son objetos, pero no sabes que clase de objeto específico. Con constructor.name, que es una parte de la Orientación a objetos podemos obtener el tipo de constructor que se utiliza, un concepto que veremos más adelante dentro del tema de clases.
 
 De momento, si lo necesitamos, podemos comprobarlo así:
@@ -68,7 +68,7 @@ De momento, si lo necesitamos, podemos comprobarlo así:
 
 Observa que en tipo de datos no primitivos, que veremos más adelante, como los arrays, no nos dice object como hacía el typeof, sino que nos devuelve específicamente Array.
 
-## Cadena de prototipos
+## <span style="color:orange">Cadena de prototipos</span>
 Para entender un poco mejor todo esto, debemos saber que Javascript funciona de modo que cada elemento tiene una cadena de prototipos, esto es, cada elemento hereda de otros elementos. Observa el siguiente ejemplo de código, donde la función getPrototypeChain() devuelve una lista de prototipos de un elemento pasado por parámetro:
 
 ![alt text](image-8.png)
@@ -81,21 +81,21 @@ Observa que los prototipos de "Hola" (un String) son String, Object y null. Esto
     3️⃣ El segundo prototipo es un Object, por lo que también puede usar las operaciones de Objet.
     4️⃣ Por último, null es el terminador de la cadena de prototipos. Simplemente hemos llegado al final.
 
-## El operador instanceof
+## <span style="color:orange">El operador instanceof</span>
 Ahora que conocemos el concepto de cadena de prototipos también podemos utilizar instanceof para saber si una variable hereda de uno de los tipos que hemos visto en el apartado anterior. Por ejemplo:
 
 ![alt text](image-9.png)
 
 Pero al igual que con vimos con typeof, hay una desventaja. Mientras que typeof sólo sirve para tipos de datos primitivos, instanceof sólo sirve para tipos de datos no primitivos.
 
-## Conversiones de tipo de dato
+## <span style="color:orange">Conversiones de tipo de dato</span>
 En Javascript, podemos forzar que valores de un tipo de dato se conviertan a otro, simplemente escribiendo el tipo de dato como si fuera una función. Por ejemplo, observa este caso donde convertimos un número en un String:
 
 ![alt text](image-10.png)
 
 Podemos hacer esto con múltiples tipos de datos como por ejemplo Number(), String(), Boolean(), RegExp(), Array() y muchos más, aunque lo más habitual es que, de usarlo, lo hagamos con los tres primeros. Hablaremos de las conversiones de tipos de datos más adelante, pero de momento nos sirve con esto para continuar.
 
-## Valores Falsy y Truthy
+## <span style="color:orange">Valores Falsy y Truthy</span>
 En Javascript, cuando trabajamos con valores BOOLEANOS  es fácil predecir cuando un valor es verdadero o falso. Sin embargo, cuando trabajamos con valores que no son booleanos, y los utilizamos  como booleanos, es más complejo determinar que valor tienen, pudiendo ocurrir cosas inesperadas.
 
 Se le llama Falsy a un valor que aunque realmente no es un booleano false se comporta como tal. Por el lado opuesto, los valores Truthy son valores que aunque no sean booleanos, se comportan como un booleano true. JavaScript tiene reglas específicas para determinar si un valor es truthy o falsy:
@@ -125,14 +125,14 @@ Como puedes ver, los casos donde se realiza la conversión de forma implícita s
 
 En Javascript hay que tener mucho cuidado con estas conversiones implícitas, ya que pueden generar resultados engañosos e impredecibles. Una buena práctica es utilizar siempre el comparador de identidad === en lugar del comparador de igualdad ==, ya que el primero compara también el tipo de dato, y por lo tanto evita muchos errores, pero esto lo veremos un poco más adelante, en el apartado de Operadores de comparación.
 
-## ¿Qué es un Symbol?
-En Javascript, existe un tipo de dato llamado Symbol que no suele ser muy conocido. Se trata de una forma alternativa de crear identificadores únicos que ofrece algunas ventajas y garantías sobre usar nombres o números.
+## <span style="color:lime">¿Qué es un Symbol?</span>
+En Javascript, existe un tipo de dato llamado <span style="color:orange">Symbol</span> que no suele ser muy conocido. Se trata de una forma alternativa de crear identificadores únicos que ofrece algunas ventajas y garantías sobre usar nombres o números.
 
 Antes de ver un ejemplo práctico, vamos a entender como funcionan los Symbol, ya que su funcionamiento es realmente simple:
 
 ![alt text](image-15.png)
 
-
+<span style="color:lime">lime</span>
 
 
 
