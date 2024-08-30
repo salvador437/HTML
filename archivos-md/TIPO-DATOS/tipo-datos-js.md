@@ -128,9 +128,75 @@ En Javascript hay que tener mucho cuidado con estas conversiones implícitas, ya
 ## <span style="color:orange">¿Qué es un Symbol?</span>
 En Javascript, existe un tipo de dato llamado <span style="color:orange">Symbol</span> que no suele ser muy conocido. Se trata de una forma alternativa de crear identificadores únicos que ofrece algunas ventajas y garantías sobre usar nombres o números.
 
-Antes de ver un ejemplo práctico, vamos a entender como funcionan los <span style="color:orange">Symbol</span>, ya que su funcionamiento es realmente simple:
+Antes de ver un ejemplo práctico, vamos a entender como funcionan los <span style="color:orange" >Symbol</span>, ya que su funcionamiento es realmente simple:
 
 ![alt text](image-15.png)
+
+Declarando un Symbol() y pasándole por parámetro un <span style="background-color:blue">String</span>, Javascript creará un símbolo (identificador único) para ese texto y lo devuelve como resultado. Es una forma rápida y simple de tener algo realmente único. Además, es inmutable, por lo que no podemos modificarlo intencional ni accidentalmente.
+
+Observa que en la última línea, a pesar de crear dos símbolos con el mismo <span style="background-color:blue">String</span>, los dos objetos realmente no son el mismo, son diferentes porque son únicos.
+
+Si lo que queremos es comprobar si su parámetro es el mismo, podemos acceder a su descripción:
+
+![alt text](image-16.png)
+
+Veamos ahora, donde puede resultar interesante utilizar estos símbolos.
+
+## <span style="color:orange">Crear identificadores únicos</span>
+Vamos a crear un ejemplo de un videojuego. De momento, no vamos a utilizar <span style="background-color:blue">Symbol</span> , sino que utilizaremos <span style="background-color:green">String</span> como identificadores «supuestamente únicos» para los tipos de enemigos del videojuego:
+
+![alt text](image-17.png)
+
+Observa que utilizando <span style="background-color:green">String</span> la responsabilidad de «recordar los nombres» de los ID de los enemigos corre de parte del programador. En este caso, el programador ha olvidado que existe otro esqueleto, y en lugar de establecer GLEAMING_SKELETON (caso ideal) ha establecido SKELETON (que es el mismo identificador que el primero que ya existía).
+
+Por lo tanto, si más tarde buscamos el esqueleto resplandeciente por su identificador, nos devolverá el primero que encuentre, es decir, el SKELETON original (y no el último que hemos añadido).
+
+Veamos ahora esta aproximación utilizando Símbolos, que recordemos que son únicos:
+
+![alt text](image-18.png)
+
+Observa que al nuevo elemento le hemos asignado un símbolo que tiene SKELETON como descripción, igual que el esqueleto original. Sin embargo, como los símbolos son únicos, se consideran diferentes. Recuerda que simplemente los estamos metiendo en constantes (o en un objeto o una estructura más organizada) para mejorar su semántica y organización.
+
+## <span style="color:orange">Crear símbolos globales</span>
+Los símbolos anteriores son locales. Es decir, sólo existen dentro de un ámbito concreto. Pero también podemos crear símbolos globales para que existan en un ámbito global de nuestra aplicación, incluso fuera de los módulos de Javascript.
+
+![alt text](image-19.png)
+
+Por otro lado, también podemos usar Symbol.keyFor() para pasar un símbolo global y obtener el <span style="background-color:green">String</span> pasado como descripción:
+
+![alt text](image-20.png)
+
+## <span style="color:orange">Símbolos conocidos</span>
+En Javascript, internamente, se utilizan símbolos para el funcionamiento de ciertas características del lenguaje. Por ejemplo, puedes utilizar símbolos concretos para definir iteradores o para devolver valores primitivos, entre muchos otros.
+
+Veamos algunos ejemplos, como por ejemplo, Symbol.iterator o Symbol.toPrimitive.
+
+## <span style="color:orange">Símbolo Symbol.iterator</span>
+El símbolo Symbol.iterator se utiliza para definir como iterar un objeto. Observa el siguiente fragmento de código, donde hemos creado un objeto counter que tiene las propiedades start y end. La idea es que ese objeto pueda recorrerse entre esos dos elementos.
+
+Observa también que tiene una una función que utiliza el símbolo Symbol.iterator para definir como debe iterarse el objeto:
+
+![alt text](image-21.png)
+
+Ahora, al tener definido ese métod next(), podemos iterar sobre el objeto counter utilizando un bucle for...of o incluso desestructurando:
+
+![alt text](image-22.png)
+
+De la misma forma que tenemos Symbol.iterator, podemos utilizar Symbol.asyncIterator para definir un iterador asíncrono que utiliza operaciones que son propiamente asíncronas.
+
+## <span style="color:orange">Símbolo Symbol.toPrimitive</span>
+Otro símbolo conocido es Symbol.toPrimitive, mediante el cuál podemos definir funciones que se ejecutarán cuando se esté realizando una conversión implícita al tipo de dato en cuestión.
+
+Por ejemplo, observa este fragmento de código donde hemos creado un objeto llamado theAnswer:
+
+![alt text](image-23.png)
+
+Al definir el símbolo Symbol.toPrimitive como función, mediante su parámetro podemos definir la lógica a ejecutar dependiendo del tipo de dato al que se convierta.
+
+Por ejemplo, ahora podemos hacer lo siguiente:
+
+![alt text](image-24.png)
+
 
 
 
