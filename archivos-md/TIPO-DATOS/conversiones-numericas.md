@@ -19,7 +19,7 @@ Observa también que si utilizamos .parseInt() con un String que contiene númer
 Si queremos quedarnos con el número decimal completo, necesitamos el método que explicamos en el siguiente apartado.
 
 ## <span style="color:orange">Números decimales</span>
-De forma análoga a .parseInt() tenemos otro método llamado .parseFloat(). Funciona exactamente igual a la primera, sólo que está enfocada para trabajar con números decimales, en lugar de números enteros. Si utilizamos .parseInt() con un número decimal, nos quedaremos sólo con la parte entera, mientras que con .parseFloat() conservará también la parte decimal (si la tiene).
+De forma análoga a .parseInt() tenemos otro método llamado .parseFloat(). Funciona exactamente igual a la primera, sólo que está enfocada para trabajar con números decimales, en lugar de números enteros. Si utilizamos .parseInt() con un número decimal, nos quedaremos sólo con la parte entera, mientras que con .parseFloat() conservará también la parte decimal (si la tiene) .
 
 ![alt text](./imagenes/image-44.png)
 
