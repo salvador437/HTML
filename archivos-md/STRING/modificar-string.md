@@ -42,7 +42,7 @@ Puede que en algunos lugares te encuentres los métodos .trimLeft() (izquierda) 
 
 ![alt text](./imagenes-modificar-string/image-5.png)
 
-El método .concat(text1, text2...) permite concatenar (unir) los textos pasados por parámetros al propio en cuestión. La misma operación se lleva acabo cuando utilizamos el operador +, mucho más legible y compacto en la mayoría de situaciones.
+El método .concat(text1, text2...) permite concatenar (unir) los textos pasados por parámetros al propio en cuestión. La misma operación se lleva acabo cuando utilizamos el operador +, mucho más legible y compacto en la mayoría de  situaciones. 
 
 ![alt text](./imagenes-modificar-string/image-6.png)
 
