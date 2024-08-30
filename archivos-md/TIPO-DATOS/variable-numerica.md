@@ -1,23 +1,23 @@
-## <span style="color:orange">¿Qué es una variable numérica?</span>
+# <span style="color:lime">¿Qué es una variable numérica?</span>
 En Javascript, crear variables numéricas es muy sencillo, pero hay muchísimos matices que se deben conocer y que necesitamos dominar para trabajar correctamente con números y anticiparnos a posibles situaciones.
 
 En Javascript, los números son uno de los tipos de datos básicos (tipos primitivos), que, para crearlos, simplemente basta con escribirlos literalmente. No obstante, como en Javascript todo se puede representar con objetos (como veremos más adelante) también se pueden declarar mediante la palabra clave new:
 
-![alt text](image-25.png)
+![alt text](./imagenes/image-25.png)
 
 Sin embargo, aunque existan estas dos formas de declararlas, no se suele utilizar la notación new con números, ya que es bastante más tedioso y complicado, por lo que lo preferible es utilizar la notación de literales:
 
-![alt text](image-26.png)
+![alt text](./imagenes/image-26.png)
 
 Observa que los números con decimales, en Javascript los separamos con un punto ( . ), mientras que de forma opcional, podemos utilizar el guión bajo ( _ ) para separar visualmente y reconocer las magnitudes que usamos, teniendo en cuenta que para Javascript es lo mismo:
 
-![alt text](image-27.png)
+![alt text](./imagenes/image-27.png)
 
 Cualquier parámetro pasado al new Number() que no sea un número (por ejemplo, la "A"), dará como resultado un valor NaN (Not A Number), algo en lo que profundizaremos un poco más adelante, en el tema ¿Qué es NaN (Not A Number)?.
 
 También hay casos, donde un número muy grande (o muy pequeño) tenga un comportamiento extraño, como el siguiente:
 
-![alt text](image-28.png)
+![alt text](./imagenes/image-28.png)
 
 Observa que incorrectNumber no muestra realmente el mismo número, sino que es diferente. Sin embargo, si le añadimos una n al final, si que guarda la cantidad exacta.
 
@@ -30,7 +30,7 @@ Algo que hay que tener muy claro en Javascript (y en general, en programación, 
 
 Observa la siguiente gráfica donde se puede ver claramente:
 
-![alt text](image-29.png)
+![alt text](./imagenes/image-29.png)
 
 Fíjate en la gráfica de color inferior:
 
@@ -40,25 +40,25 @@ Fíjate en la gráfica de color inferior:
 
 Existe una serie de constantes definidas en relación a este tema, que marcan los límites mínimo o máximo. Veamos cuales son y su significado:
 
-![alt text](image-30.png)
+![alt text](./imagenes/image-30.png)
 
 El valor Number.EPSILON es un número que se suele utilizar para representar cantidades matemáticas muy pequeñas. Por otro lado, la diferencia entre Number.MAX_VALUE y Number.MAX_SAFE_INTEGER es que, el primero es el valor máximo que es posible representar en Javascript. Por otro lado, el segundo es el valor máximo para realizar cálculos con seguridad en Javascript.
 
 ## <span style="color:orange">Valores infinitos en Javascript</span>
 Si simplemente quieres representar un número muy alto, sin importar el valor en sí, puedes utilizar la constante Infinity. De la misma forma, la constante -Infinity se puede utilizar para valores muy bajos donde no importa el valor en sí:
 
-![alt text](image-31.png)
+![alt text](./imagenes/image-31.png)
 
 Los valores infinitos se pueden operar con números, pero ten en cuenta las reglas de los infinitos, y que en algunos casos, puede resultar una indeterminación, por lo que nos dará como resultado NaN (not a number).
 
 ## <span style="color:orange">Comprobaciones numéricas</span>
 Si queremos conocer la naturaleza de una variable numérica (número finito, número entero o número seguro), las podemos comprobar con uno de los métodos estáticos de Number que tenemos a continuación:
 
-![alt text](image-32.png)
+![alt text](./imagenes/image-32.png)
 
 Ten en cuenta que estas funciones devuelven un boolean(verdadero o falso), lo que lo hace ideales para usarlas como condiciones en bucles o condicionales. A continuación veamos dos ejemplos para cada una de estas funciones:
 
-![alt text](image-33.png)
+![alt text](./imagenes/image-33.png)
 
 Ten en cuenta que la notación 1e5 significa «5 ceros seguidos de un 1», es decir, 100000.
 
@@ -67,11 +67,11 @@ En Javascript tenemos dos formas de representar los números: la notación expon
 
 Podemos cambiar entre ellas utilizando los siguientes métodos:
 
-![alt text](image-34.png)
+![alt text](./imagenes/image-34.png)
 
 Además, observa el método .toPrecision() mediante el cuál puedes cambiar la precisión de un número. Observemos ahora el siguiente ejemplo aplicando las funciones anteriores al número decimal 1.25 y al 523.75 para cambiar la precisión:
 
-![alt text](image-35.png)
+![alt text](./imagenes/image-35.png)
 
 No olvides que en todos los casos, el número se convierte a tipo de dato String.
 
@@ -88,23 +88,25 @@ Uno de los más frecuentes es el segundo, ya que Javascript es un lenguaje flexi
 
 Por aquí puedes encontrar las propiedades y métodos relacionados con NaN que existen:
 
-![alt text](image-36.png)
+![alt text](./imagenes/image-36.png)
 
 Observa que aunque NaN es un valor global, también existe un Number.NaN como propiedad de Number, para tenerlo modularizado y encapsulado como propiedad estática en el objeto Number.
 
 ## <span style="color:orange">Todos los NaN son diferentes</span>
 Como hemos dicho, el valor NaN se utiliza para intentar representar un valor que no se puede representar. Sin embargo, no podemos compararlo literalmente con NaN, sino que tenemos que usar la función Number.isNaN():
 
-![alt text](image-37.png)
+![alt text](./imagenes/image-37.png)
 
 Recuerda que aunque desafortunamente, NaN significa Not A Number (no es un número), pero NaN sí que es un valor numérico, lo que ocurre es que ese valor no es representable de forma numérica:
 
-![alt text](image-38.png)
+![alt text](./imagenes/image-38.png)
 
 ## <span style="color:orange">Conversiones de valores NaN</span>
 Si intentamos convertir un valor NaN a otro tipo de dato primitivo utilizando un typecast (forzar conversión explícita), nos encontraremos lo siguiente:
 
-![alt text](image-39.png)
+![alt text](./imagenes/image-39.png)
+
+
 
 
 

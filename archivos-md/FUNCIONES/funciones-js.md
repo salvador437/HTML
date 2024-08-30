@@ -1,4 +1,4 @@
-# <center>FUNCIONES</center>
+# <span style="color:lime"><center>FUNCIONES</center></span>
 
 ## <span style="color:orange">¿Qué es una función?</span>
 Las funciones nos permiten agrupar líneas de código en tareas con un nombre, para que, posteriormente, podamos hacer referencia a ese nombre para realizar todo lo que se agrupe en dicha tarea. Para usar funciones hay que hacer 2 cosas:
@@ -9,26 +9,26 @@ Las funciones nos permiten agrupar líneas de código en tareas con un nombre, p
 ## <span style="color:orange">Declaración</span>
 En el siguiente ejemplo veremos la declaración de una función llamada saludar:
 
-![alt text](image.png)
+![alt text](./imagenes/image.png)
 
 El contenido de la función es una línea que mostrará por consola un saludo. Sin embargo, si escribimos estas 4-5 líneas de código en nuestro programa, no mostrará nada por pantalla. Esto ocurre así porque solo hemos declarado la función (le hemos dicho que existe), pero aún nos falta el segundo paso, ejecutarla, que es realmente cuando se realizan las tareas de su contenido.
 
 ## <span style="color:orange">Ejecución</span>
 Veamos, ahora sí, el ejemplo completo con declaración y ejecución:
 
-![alt text](image-1.png)
+![alt text](./imagenes/image-1.png)
 
 En este ejemplo hemos declarado la función y además, hemos ejecutado la función (en la última línea) llamándola por su nombre y seguida de ambos paréntesis, que nos indican que es una función. En este ejemplo, si se nos mostraría en la consola Javascript el mensaje de saludo.
 
 ### Ejemplo:
 
-![alt text](image-2.png)
+![alt text](./imagenes/image-2.png)
 
 Este primer ejemplo funciona perfectamente, sin embargo, no estamos aprovechando las ventajas de la programación, sino que hemos hecho todo el trabajo escribiendo 10 líneas de código.
 
 Vamos a utilizar un bucle for para ahorrarnos tantas líneas de código:
 
-![alt text](image-3.png)
+![alt text](./imagenes/image-3.png)
 
 Esto está mucho mejor. Hemos resumido 11 líneas de código en prácticamente 2 líneas utilizando un bucle for que va de 0 a 10 incrementando de 1 en 1. Incluso, recuerda que cuando las llaves sólo contienen una línea, se pueden omitir.
 
@@ -36,13 +36,13 @@ Pero aún no hemos utilizado funciones, así que vamos a modificar nuestro ejemp
 
 La primera aproximación para hacer eso que se nos ocurriría sería hacer lo siguiente:
 
-![alt text](image-4.png)
+![alt text](./imagenes/image-4.png)
 
 Pero volvemos a tener el mismo problema del primer ejemplo. Estamos repitiendo el mismo código varias veces, complicándolo y volviéndolo más «feo». Además, si tuvieramos que hacer modificaciones en uno de los bucles habría también que repetir el trabajo 2 veces más, por cada uno de los otros bucles.
 
 Veamos ahora como obtener el mismo resultado pero utilizando bucles y funciones, sin repetir varias veces las mismas tareas:
 
-![alt text](image-5.png)
+![alt text](./imagenes/image-5.png)
 
 En este ejemplo se declara la función, que mostrará la tabla de multiplicar del uno. Posteriormente, realizamos un bucle con la variable intento de 0 a 2 (3 repeticiones) para llamar la función 3 veces, y mostrar así la tabla de multiplicar cada vez.
 
@@ -51,11 +51,11 @@ Pero... ¿No sería más interesante mostrar las 3 primeras tablas de multiplica
 ## <span style="color:orange">¿Qué son los parámetros?</span>
 Las funciones son mucho más flexibles y potentes de lo que hemos visto hasta ahora. A las funciones se les pueden pasar parámetros, que no son más que variables que les pasamos desde fuera hacia dentro de la función. Además, también podemos hacer que la función realice sus tareas y nos devuelva un resultado hacia el exterior de la función.
 
-![alt text](image-6.png)
+![alt text](./imagenes/image-6.png)
 
 Veamos el siguiente ejemplo, donde utilizamos el parámetro hasta para indicar hasta donde debe llegar:
 
-![alt text](image-7.png)
+![alt text](./imagenes/image-7.png)
 
 Como podemos ver, en el interior de los paréntesis de la función se ha indicado una variable llamada hasta. Esa variable contiene el valor que se le da a la hora de ejecutar la función, que en este ejemplo, si nos fijamos bien, se ejecuta dos veces: una con valor 10 y otra con valor 5.
 
@@ -76,7 +76,7 @@ Al terminar ejecutaremos la segunda función:
 ## <span style="color:orange">Parámetros múltiples</span>
 Hasta ahora sólo hemos creado una función con 1 parámetro, pero una función de Javascript puede tener muchos más parámetros. Vamos a crear otro ejemplo, mucho más útil donde convertimos nuestra función en algo más práctico y útil:
 
-![alt text](image-8.png)
+![alt text](./imagenes/image-8.png)
 
 En este ejemplo, hemos modificado nuestra función tablaDelUno() por esta nueva versión que hemos cambiado de nombre a tablaMultiplicar(). Esta función necesita que le pasemos dos parámetros: tabla (la tabla de multiplicar en cuestión) y hasta (el número hasta donde llegará la tabla de multiplicar).
 
@@ -87,7 +87,7 @@ Es posible que en algunos casos queramos que ciertos parámetros tengan un valor
 
 En nuestro ejemplo anterior, nos podría interesar que la tabla de multiplicar llegue siempre hasta el 10, ya que es el comportamiento por defecto. Si queremos que llegue hasta otro número, lo indicamos explicitamente, pero si lo omitimos, queremos que llegue hasta 10. Esto se haría de la siguiente forma:
 
-![alt text](image-9.png)
+![alt text](./imagenes/image-9.png)
 
 De esta forma nos ahorramos tener que escribir los valores en la ejecución de la función, si en la mayoría de los casos va a tomar ese valor.
 
@@ -98,28 +98,28 @@ Para ello, se utiliza la palabra clave return, que suele colocarse al final de l
 
 Veamos un ejemplo con una operación muy sencilla, para verlo claramente:
 
-![alt text](image-10.png)
+![alt text](./imagenes/image-10.png)
 
 Como podemos ver, esto nos permite crear funciones más modulares y reutilizables que podremos utilizar en multitud de casos, ya que la información se puede enviar al exterior de la función y utilizarla junto a otras funciones o para otros objetivos.
 
 ## <span style="color:orange">Formas de crear funciones</span>
 Hay varias formas principales de crear funciones en Javascript, aunque probablemente sólo conozcas alguna de ellas:
 
-![alt text](image-11.png)
+![alt text](./imagenes/image-11.png)
 
 Vamos a explicar cada una de estas formas a continuación, para saber cómo utilizarlas y cuando es interesante utilizarlas.
 
 ## <span style="color:orange">Funciones por declaración</span>
 Probablemente, la forma más popular de estas tres, y a la que estaremos acostumbrados si venimos de otros lenguajes de programación, es la primera, a la creación de funciones por declaración. Esta forma permite declarar una función que existirá a lo largo de todo el código:
 
-![alt text](image-12.png)
+![alt text](./imagenes/image-12.png)
 
 De hecho, podríamos ejecutar la función saludar() incluso antes de haberla creado y funcionaría correctamente, ya que Javascript primero busca las declaraciones de funciones y luego procesa el resto del código.
 
 ## <span style="color:orange">Funciones por expresión</span>
 Sin embargo, en Javascript es muy habitual encontrarse códigos donde los programadores «guardan funciones» dentro de variables, para posteriormente «ejecutar dichas variables». Se trata de un enfoque diferente, creación de funciones por expresión, que fundamentalmente, hacen exactamente lo mismo (con algunos matices diferentes):
 
-![alt text](image-13.png)
+![alt text](./imagenes/image-13.png)
 
 Con este nuevo enfoque, estamos creando una función en el interior de una variable, lo que nos permitirá posteriormente ejecutar la variable (como si fuera una función, que de hecho lo es, porque es lo que contiene).
 
@@ -128,7 +128,7 @@ Observa también que el nombre de la función (saludar) pasa a ser inútil, ya q
 ## <span style="color:orange">Funciones como objetos</span>
 Como curiosidad, debes saber que se pueden declarar funciones como si fueran objetos. Sin embargo, es un enfoque que no se suele utilizar en el mundo real, ya que es incómodo, poco práctico y muy verboso:
 
-![alt text](image-14.png)
+![alt text](./imagenes/image-14.png)
 
 Simplemente es interesante saberlo para darse cuenta que en Javascript todo pueden ser objetos.
 
@@ -137,7 +137,7 @@ Las funciones anónimas (o funciones lambda) son un tipo de funciones que se dec
 
 Sin saberlo, creamos de forma intuitiva una función anónima:
 
-![alt text](image-15.png)
+![alt text](./imagenes/image-15.png)
 
 Observa que, tras definir la función, hace dos acciones:
 
@@ -149,15 +149,15 @@ Ahora que tenemos claro el concepto de función anónima, vamos a ver un caso do
 
 Esto se puede resolver con lo que se llama una función autoejecutables. Básicamente, sólo tenemos que envolver entre paréntesis la función anónima en cuestión (no necesitamos que tenga nombre, puesto que no la vamos a guardar) y luego, ejecutarla:
 
-![alt text](image-16.png)
+![alt text](./imagenes/image-16.png)
 
 De hecho, también podemos utilizar parámetros en dichas funciones autoejecutables. Observa que sólo hay que pasar los parámetros deseados al final de la función autoejecutable:
 
-![alt text](image-17.png)
+![alt text](./imagenes/image-17.png)
 
 Ten en cuenta que, si la función autoejecutable devuelve algún valor con return, a diferencia de las funciones por expresión, en este caso lo que se almacena en la variable es el valor que devuelve la función autoejecutada:
 
-![alt text](image-18.png)
+![alt text](./imagenes/image-18.png)
 
 ¿Qué está ocurriendo aquí? Analicemos paso por paso:
 
@@ -173,7 +173,7 @@ A grandes rasgos, en Javascript, una clausura o cierre se define como una funci�
 
 Por ejemplo, veamos el siguiente ejemplo:
 
-![alt text](image-19.png)
+![alt text](./imagenes/image-19.png)
 
 Analicemos primero lo que tenemos en este código, y luego analicemos lo que ocurre cuando ejecutamos la función:
 
@@ -185,7 +185,7 @@ La «magia» de las clausuras es que en el interior de la función autoejecutabl
 
 Por lo tanto, en la variable incr guardamos una función que además conoce el valor de una variable num, que sólo existe dentro de incr.
 
-![alt text](image-20.png)
+![alt text](./imagenes/image-20.png)
 
 Si nos fijamos en la función que devolvemos, lo que hace es incrementar el valor de num y devolverlo. Como la variable incr es una clausura y mantiene la variable en su propio ámbito, veremos que a medida que ejecutamos incr(), los valores de num (que estamos devolviendo) conservan su valor y se van incrementando.
 
@@ -196,7 +196,7 @@ A grandes rasgos, un callback (llamada hacia atrás) es pasar una función por p
 
 Esto se ve mucho más claramente con algo de código, así que observa el siguiente ejemplo:
 
-![alt text](image-21.png)
+![alt text](./imagenes/image-21.png)
 
 
     1️⃣ Definimos una función action que realiza una tarea.
@@ -210,13 +210,13 @@ Lo aprendido en el ejemplo que vimos en el apartado anterior nos podría permiti
 
 Observa el siguiente ejemplo, en el que estamos creando un número decimal aleatorio entre 0 y 1. Hemos definido que al ejecutar doTask, exista un 50% de probabilidad de que ocurra un error (valores entre 0 y 0.5), o no ocurra error (valores entre 0.5 y 1):
 
-![alt text](image-22.png)
+![alt text](./imagenes/image-22.png)
 
 Viendo este ejemplo, podemos planear ejecutar la función doTask(), que es nuestra HOF, cambiando los callbacks según nos interese, sin necesidad de crear funciones con el mismo código repetido una y otra vez.
 
 Además, en el caso de que las funciones callbacks sean muy cortas, muchas veces utilizamos directamente la función anónima, sin necesidad de guardarla en una variable previamente:
 
-![alt text](image-23.png)
+![alt text](./imagenes/image-23.png)
 
 Como se puede ver, esta forma de escribir código se suele evitar para facilitar la legibilidad del código, y sólo se utiliza en casos muy específicos donde estás seguro que no hace falta guardar las funciones previamente.
 
@@ -225,7 +225,7 @@ A medida que trabajamos con Javascript, nos daremos cuenta que estamos continuam
 
 Las Arrow functions, funciones flecha o «fat arrow» son una forma corta y compacta de escribir las funciones tradicionales de Javascript. A grandes rasgos, se trata de eliminar la palabra function y añadir el texto => antes de abrir las llaves:
 
-![alt text](image-24.png)
+![alt text](./imagenes/image-24.png)
 
 En principio, no hay ninguna diferencia más, y se ejecutan de la misma forma. Sin embargo, las funciones flechas tienen algunos matices y diferencias bastante interesantes:
 
@@ -238,7 +238,7 @@ En principio, no hay ninguna diferencia más, y se ejecutan de la misma forma. S
 
 Por lo tanto, el ejemplo anterior se puede simplificar aún más:
 
-![alt text](image-25.png)
+![alt text](./imagenes/image-25.png)
 
 Las funciones flecha hacen que el código sea mucho más legible y claro de escribir, mejorando la productividad a la hora de escribir nuestro código. Sim embargo, también hay algunas diferencias más técnicas respecto a las funciones tradicionales. Vamos a profundizar en ellas.
 
@@ -247,13 +247,13 @@ Aunque aún no hemos utilizado la palabra clave this, una de las principales dif
 
 Por ejemplo, si utilizamos una función de forma global en nuestro programa, no notaremos ninguna diferencia:
 
-![alt text](image-26.png)
+![alt text](./imagenes/image-26.png)
 
 En ambos casos, el valor de this es el objeto global Window o globalThis, que es una referencia al objeto que representa la ventana o pestaña del navegador: si estamos en un contexto global, this hace referencia a esta ventana del navegador. Sin embargo, si utilizamos una función en el interior de un objeto, como suele ser el caso más habitual, si encontraremos diferencias.
 
 Observa el siguiente código:
 
-![alt text](image-27.png)
+![alt text](./imagenes/image-27.png)
 
 Esta es una diferencia clave que hay que tener bien en cuenta a la hora de trabajar con las arrow function de Javascript:
 
@@ -271,14 +271,14 @@ Básicamente, una función generadora es una función que se puede pausar y rean
 
 Observa el siguiente ejemplo. El primer detalle que encontraremos para diferenciar una función generadora de una función tradicional es que tiene un asterisco al final de function:
 
-![alt text](image-28.png)
+![alt text](./imagenes/image-28.png)
 
 Luego, observa que en lugar de llamar a return para devolver un valor, utilizamos yield. Es algo muy similar, sólo que en lugar de devolver el valor y terminar la ejecución, lo pausamos.
 
 ## <span style="color:orange">Pausando y reanudando la función</span>
 Sin embargo, hasta ahora, aunque lo parezca, no hemos ejecutado ninguna línea de código de nuestra función generadora, sólo la hemos preparado para empezar a ejecutar.
 
-![alt text](image-29.png)
+![alt text](./imagenes/image-29.png)
 
 Observa que lo que hacemos es ejecutar un método o función llamado .next() en nuestra variable values. Esto lo que hará es ejecutar nuestra función generadora hasta que encuentre un yield, momento en el que pausará la ejecución y devolverá un objeto con el valor devuelto en la propiedad value y un valor booleano en done que indica si se ha terminado de ejecutar la función. Observa que done no es verdadero hasta devolver el último valor y volver a ejecutar .next().
 
@@ -286,20 +286,20 @@ En nuestro caso no hemos colocado código intermedio entre los yield, pero donde
 
 Ten en cuenta que en una función generadora también podemos utilizar return:
 
-![alt text](image-30.png)
+![alt text](./imagenes/image-30.png)
 
 Sin embargo, en este caso, return devolverá el valor pero al contrario que yield finalizará la ejecución de nuestra función, dándola por terminada como en una función tradicional.
 
 ## <span style="color:orange">Iteración de valores</span>
 Podemos iterar directa y facilmente los valores de nuestra función generadora utilizando el operador spread. Observa el siguiente código, con la función generadora generator():
 
-![alt text](image-31.png)
+![alt text](./imagenes/image-31.png)
 
 En este caso, hemos iterado los valores devueltos por yield, guardándolos en un array, ya que estamos volviendo a estructurar en un array los valores devueltos.
 
 Esto sería muy parecido a lo que podríamos hacer con un bucle for...of, o incluso con una función .forEach(), .map() o similar, donde se procesaría en cada iteración los valores devueltos por el yield:
 
-![alt text](image-32.png)
+![alt text](./imagenes/image-32.png)
 
 Recuerda que aunque en estos ejemplos no se muestra, una de las características estrella de las funciones generadores es que podemos colocar código entre los yield. De esta forma, además de devolver un valor con yield (que puede depender de nuestro código), estamos ejecutando código adicional que puede realizar otras tareas.
 
