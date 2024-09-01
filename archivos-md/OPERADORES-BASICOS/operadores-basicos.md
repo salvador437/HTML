@@ -1,4 +1,4 @@
-# <span style="color:lime"><center>Operadores basicos.</center></span>
+# <span style="color:lime"><center>Operadores básicos.</center></span>
 
 Al trabajar con Javascript (o con cualquier lenguaje de programación), es muy habitual hacer uso de los llamados operadores. Se trata de unos símbolos que nos permitirán hacer una serie de operaciones rápidas con uno o más operandos (generalmente números, aunque también pueden ser otros tipos de datos).
 
