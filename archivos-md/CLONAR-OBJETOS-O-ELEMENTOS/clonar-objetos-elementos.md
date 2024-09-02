@@ -73,5 +73,9 @@ En principio, en estructuras de datos no deberían existir elementos del DOM ni 
 
   Ten en cuenta que aunque puede ser atractivo el método _.cloneDeep() por soportar todos los tipos de datos, también hay que tener en cuenta que no se trata de un método nativo del navegador, sino que se trata de una librería externa, que debe cargarse, parsearse y ejecutarse y que con estructuras muy complejas puede ser lenta o pesada.
 
+  
+
+
+
 
 
