@@ -27,3 +27,4 @@ La diferencia se entiende muy fácil con el siguiente ejemplo:
 ![alt text](./imagenes-comparacion/image-3.png)
 
 Por esta razón, en Javascript se suele generalizar que es mucho mejor utilizar === en lugar de ==, ya que comprueba ambas cosas, valor y tipo de dato, y por lo tanto la comprobación es mucho más estricta.
+
