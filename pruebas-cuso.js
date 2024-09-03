@@ -291,4 +291,63 @@ findEnemyById(SKELETON);
 // Devuelve: { id: Symbol(SKELETON), name: "Esqueleto" }
 
 
+//Crear símbolos globales
+const u1a = Symbol("unique");
+const u2a = Symbol("unique");
+u1 === u2; // false
 
+const u1b = Symbol.for("unique");    // Símbolo global compartido
+const u2b = Symbol.for("unique");    // Símbolo global compartido
+u1 === u2; // true
+
+const local = Symbol("unique");
+const global = Symbol.for("unique");
+
+Symbol.keyFor(global);  // "unique"
+Symbol.keyFor(local);   // undefined
+
+
+
+//Símbolo Symbol.iterator.....
+const counter = {
+  start: 1,
+  end: 10,
+  [Symbol.iterator]() {
+    let current = this.start;
+    const end = this.end + 1;
+    return {
+      next() {
+        return {
+          value: current++,
+          done: current > end,
+        };
+      },
+    };
+  },
+};
+
+
+// Muestra números del 1 al 10
+for (const number3 of counter) {
+  console.log(number3);
+}
+
+// Devuelve [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const numbers3 = [...counter];
+
+
+//Símbolo Symbol.toPrimitive......
+const theAnswer = {
+  [Symbol.toPrimitive](hint) {
+    if (hint === "string") {
+      return "El sentido de la vida, el universo y todo lo demás.";
+    } else if (hint === "number") {
+      return 42;
+    } else {
+      return null;
+    }
+  },
+};
+
+
+//¿Qué son las funciones?
