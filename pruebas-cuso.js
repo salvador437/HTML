@@ -87,17 +87,17 @@ console.profileEnd();
 //Tipos de datos.................
 
 // Un texto, letra o carácter
-const text = "Hola, me llamo Manz";
+const text2 = "Hola, me llamo Manz";
 
 // Un número (entero o decimal)
-const number = 42;
+const number2 = 42;
 
 // Un número muy grande (se añade n al final)
 const bignumber = 12345678901234567890n;
 console.log(tipeof(bignumber));
 
 // Un valor de verdadero o falso
-const boolean = true;
+const boolean2 = true;
 console.log(tipeof(boolean));
 
 // Un valor único
@@ -108,7 +108,7 @@ console.log(tipeof(symbol));
 //undefined.................
 
 // Tiene el valor undefined
-let notDefined;
+let notDefined2;
 
 // Aunque no es lo habitual, también se puede asignar explícitamente
 let sinDefinir = undefined;
@@ -129,6 +129,166 @@ const user = { name: "ManzDev" };
 
 // Tipo de dato: Array
 const users2 = ["ManzDev", "CyberManzDev", "Manz9000"]
+
+
+//El operador typeof........
+const text = "Hola ManzDev!";
+typeof (text);       // Devuelve "String"
+
+const number = 42;
+typeof (number);     // Devuelve "Number"
+
+const boolean = true;
+typeof (boolean);    // Devuelve "Boolean"
+
+let notDefined;
+typeof (notDefined); // Devuelve undefined
+
+const numbers = [1, 2, 3, 4];
+typeof numbers;    // Devuelve "object"
+
+const user0 = { name: "ManzDev" };
+typeof (user0);       // Devuelve "object"
+
+
+
+//La propiedad constructor.name
+const text3 = "Hola ManzDev!";
+text3.constructor.name;       // String
+
+const number3 = 42;
+number3.constructor.name;     // Number
+
+const boolean3 = true;
+boolean3.constructor.name;    // Boolean
+
+let notDefined3;
+notDefined3.constructor.name; // ERROR
+// constructor.name sólo funciona en variables definidas
+
+const numbers4 = [1, 2, 3, 4];
+numbers4.constructor.name;    // Array
+
+const user4 = { name: "ManzDev" };
+user4.constructor.name;       // Object
+
+
+//Cadena de prototipos
+getPrototypeChain("Hola");        // ['String', 'Object', null]
+getPrototypeChain(42);            // ['Number', 'Object', null]
+getPrototypeChain([1, 2, 3]);     // ['Array', 'Object', null]
+getPrototypeChain(/.+/);          // ['RegExp', 'Object', null]
+
+
+
+//El operador instanceof
+const numbers2 = [1, 2, 3];
+getPrototypeChain(numbers2);   // ['Array', 'Object', null]
+
+numbers instanceof Array      // true
+numbers instanceof Object     // true
+numbers instanceof Number     // false
+numbers instanceof String     // false
+
+/*Falsy y Truthy
+  Conversiones de tipo de dato
+*/
+
+const number5 = 42;             // 42
+number5.constructor.name;       // "Number"
+
+const text5 = Number(number);   // "42"
+text5.constructor.name;         // "String"
+
+Boolean(42);    // true (número positivo)
+Boolean(0);     // false (cero)
+Boolean(-42);   // true (número negativo)
+
+// Se fuerza un texto a número (de forma explícita)
+Number("42");       // 42
+
+// Se fuerza un texto a número (de forma implícita)
++"42"               // 42
+
+// Se concatenan (unen) dos strings ("22" + "22")
+"22" + String(22);  // "2222"
+
+// Se convierte el número a texto y se concatena (se une)
+"22" + 22           // "2222"
+
+
+// Realmente no es cero, es un string que no es vacío
+Boolean("0");           // true
+
+// Realmente no false, es un string que no es vacío
+Boolean("false");       // true
+
+// Aunque sea un array vacío, es un elemento que existe
+Boolean([]);            // true
+Boolean([0]);           // true
+
+// El signo negativo realiza una conversión implícita, evaluando array como número
+Boolean(-[]);           // false
+Number(-[]);            // 0
+
+
+
+//Symbols en Javascript.......
+const id = Symbol("id");            // Identificador de "id"
+const unique = Symbol("unique");    // Identificador de "unique"
+Symbol("unique") === Symbol("unique");  // false
+
+
+const u1 = Symbol("unique");
+const u2 = Symbol("unique");
+
+u1 === u2;                            // false (son símbolos diferentes)
+u1.description === u2.description;    // true  (se crearon con el mismo texto)
+
+//Crear identificadores únicos
+const enemies = [
+  { id: "SKELETON", name: "Esqueleto" },
+  { id: "SPECTRE", name: "Espectro" },
+  { id: "GHOST", name: "Fantasma" }
+];
+
+const addEnemy = (id, name) => {
+  enemies.push({ id, name });
+}
+
+// Añadimos nuevo esqueleto a la lista de enemigos
+addEnemy("SKELETON", "Esqueleto resplandeciente");
+
+const findEnemyById = (id) => {
+  return enemies.find(enemy => enemy.id === id);
+}
+
+findEnemyById("SKELETON");
+// Devuelve { id: "SKELETON", name: "Esqueleto" }
+
+const SKELETON = Symbol("SKELETON");
+const SPECTRE = Symbol("SPECTRE");
+const GHOST = Symbol("GHOST");
+
+const enemies2 = [
+  { id: SKELETON, name: "Esqueleto" },
+  { id: SPECTRE, name: "Espectro" },
+  { id: GHOST, name: "Fantasma" }
+];
+
+// Enemies methods
+const addEnemy2 = (id, name) => enemies.push({ id, name });
+const findEnemyById2 = (id) => enemies.find(enemy => enemy.id === id);
+
+// Añadimos nuevo esqueleto a la lista de enemigos
+const GLEAMING_SKELETON = Symbol("SKELETON");
+addEnemy(GLEAMING_SKELETON, "Esqueleto resplandeciente");
+
+findEnemyById(GLEAMING_SKELETON);
+// Devuelve: { id: Symbol(SKELETON), name: "Esqueleto resplandeciente" }
+
+findEnemyById(SKELETON);
+// Devuelve: { id: Symbol(SKELETON), name: "Esqueleto" }
 
 
 
