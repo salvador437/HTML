@@ -294,7 +294,7 @@ findEnemyById(SKELETON);
 //Crear símbolos globales
 const u1a = Symbol("unique");
 const u2a = Symbol("unique");
-u1 === u2; // false
+console.log(u1a === u2a);// false
 
 const u1b = Symbol.for("unique");    // Símbolo global compartido
 const u2b = Symbol.for("unique");    // Símbolo global compartido
