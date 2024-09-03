@@ -84,3 +84,51 @@ for (let i = 0; i < 10; i++) {
 console.profileEnd();
 
 
+//Tipos de datos.................
+
+// Un texto, letra o carácter
+const text = "Hola, me llamo Manz";
+
+// Un número (entero o decimal)
+const number = 42;
+
+// Un número muy grande (se añade n al final)
+const bignumber = 12345678901234567890n;
+console.log(tipeof(bignumber));
+
+// Un valor de verdadero o falso
+const boolean = true;
+console.log(tipeof(boolean));
+
+// Un valor único
+const symbol = Symbol("unique");
+console.log(tipeof(symbol));
+
+
+//undefined.................
+
+// Tiene el valor undefined
+let notDefined;
+
+// Aunque no es lo habitual, también se puede asignar explícitamente
+let sinDefinir = undefined;
+
+
+//El valor especial null.....
+
+// Caso A
+let selectedUser;
+
+// Caso B
+let selectedUser2 = null;
+
+//Tipos de datos no primitivos....
+
+// Tipo de dato: Objeto
+const user = { name: "ManzDev" };
+
+// Tipo de dato: Array
+const users2 = ["ManzDev", "CyberManzDev", "Manz9000"]
+
+
+
