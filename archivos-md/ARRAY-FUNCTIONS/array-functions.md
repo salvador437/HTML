@@ -82,7 +82,7 @@ Por ejemplo, considera el siguiente array:
 
 ![alt text](./imagenes-array-function/image-9.png)
 
-Observa que el array values tiene 6 elementos, donde el cuarto elemento y el sexto elemento son arrays anidados. En el array del cuarto elemento hay dos números, pero en el array del sexto elemento hay a su vez un array con cuatro elementos donde su tercer elemento es nuevamente otro array. Estaríamos hablando de que el array values tiene arrays hasta un nivel 3.
+Observa que el array values tiene 6 elementos, donde el cuarto elemento y el sexto elemento son arrays anidados. En el array del cuarto elemento hay dos números, pero en el array del sexto elemento hay a su vez un array con cuatro elementos donde su tercer elemento es nuevamente otro array. Estaríamos hablando de que el array values tiene arrays hasta un nivel  3.
 
 Con .flat() podemos indicar hasta que nivel queremos «aplanarlo».
 
