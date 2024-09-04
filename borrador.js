@@ -1,3 +1,8 @@
 const u1a = Symbol("unique");
 const u2a = Symbol("unique");
-console.log(u1a === u2a);// false
+
+
+const a = 5;
+const b = 23;
+console.log(a^b);
+
