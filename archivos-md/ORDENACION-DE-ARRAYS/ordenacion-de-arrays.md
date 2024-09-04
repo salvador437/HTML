@@ -46,7 +46,7 @@ Efectivamente, vemos que ahora el array sortedNames está ordenado alfabéticame
 
 Nuevamente, otra solución mucho más sencilla podría ser utilizar la función .toSorted() ES2023, que funciona exactamente igual que .sort(), pero manteniendo intacto el array original, sin mutarlo:
 
-![alt text](image-7.png)
+![alt text](./imagenes-ordenacion-arrays/image-7.png)
 
 Sin embargo, la ordenación anterior se realizó sobre un array de elementos STRING y todo fue bien. Veamos que ocurre si intentamos ordenar un array de elementos NUMBER, tanto utilizando el método .sort() como el método .toSorted():
 
