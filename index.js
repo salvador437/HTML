@@ -1,3 +1,4 @@
+//funcion para el calculo del factorial de un numero
 function factorial(n) {
   console.log(`calculando factorial de ${n}`);
   if (n === 0) {
@@ -32,7 +33,7 @@ const carrito = [
   { nombre: "Pantalones", precio: 30, cantidad: 1 },
   { nombre: "Zapatos", precio: 50, cantidad: 3 },
 ];
-//?resultado para llamar a la
+//resultado para llamar a la
 const totalCarrito = calcularTotalCarrito(carrito);
 console.log(totalCarrito); // imprime 220.
 
