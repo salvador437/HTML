@@ -25,17 +25,15 @@ Dicho esto, es necesario tener presente que aprender a programar es una tarea qu
 - Puedes aprender a programar bien y sin demasiados errores en meses.
 
 ## <span style="color:orange">Coerción en Javascript 👨🏻‍🎓</span>
-
+  
 La coerción de tipos hace referencia a la conversión automática de tipos de datos que se produce en JavaScript cuando se utilizan juntos diferentes tipos de datos en una operación. Por ejemplo, si se suman un número y una cadena, JavaScript convertirá automáticamente el número en una cadena para realizar la operación.
 
 ## <span style="color:orange">Casting 👨🏻‍🎓</span>
 
 Por otro lado, la conversión de tipos se refiere a la conversión explícita de tipos de datos. Esto se hace usando funciones de conversión como Number() , String() , Boolean() y Symbol()
 
-` const str = '5';`
-
-`const num = Number(str);`
-
+`const str = '5';`<br> 
+`const num = Number(str);`<br>
 `console.log(num);`//output: 5
 
 - parseInt() : La función parseInt se usa para convertir un valor en un número entero. Es diferente de Number() y parseFloat() ya que ignora cualquier valor después del decimal. Por ejemplo:
