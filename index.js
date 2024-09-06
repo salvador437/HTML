@@ -11,7 +11,7 @@ function factorial(n) {
     return resultado;
   }
 }
-// llamada a ala funcion factorial.
+// llamada  a la funcion factorial.
 console.log(factorial(7));
 
 function calcularTotalCarrito(carrito) {
@@ -33,7 +33,7 @@ const carrito = [
   { nombre: "Pantalones", precio: 30, cantidad: 1 },
   { nombre: "Zapatos", precio: 50, cantidad: 3 },
 ];
-//resultado para llamar a la
+// *resultado para llamar a la funcion
 const totalCarrito = calcularTotalCarrito(carrito);
 console.log(totalCarrito); // imprime 220.
 // swap de variables
