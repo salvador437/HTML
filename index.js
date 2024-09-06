@@ -36,7 +36,7 @@ const carrito = [
 //resultado para llamar a la
 const totalCarrito = calcularTotalCarrito(carrito);
 console.log(totalCarrito); // imprime 220.
-
+// swap de variables
 let a = 5;
 let b = 8;
 
