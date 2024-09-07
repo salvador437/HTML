@@ -1,4 +1,4 @@
-//funcion para el calculo del factorial de un numero
+//funcion para el calculo del factorial de un número
 function factorial(n) {
   console.log(`calculando factorial de ${n}`);
   if (n === 0) {
