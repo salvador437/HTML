@@ -350,4 +350,7 @@ const theAnswer = {
 };
 
 
-//¿Qué son las funciones?
+const audio = new Audio(
+  "https://manzdev.github.io/codevember2017/assets/eye-tiger.mp3"
+);
+audio.play();
