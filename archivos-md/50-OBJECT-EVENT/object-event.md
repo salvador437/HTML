@@ -55,7 +55,7 @@ Sin embargo, pueden existir situaciones donde queremos que se anule este comport
 
 Mediante el método .preventDefault() se establecerá el flag .defaultPrevented a true y podremos evitar el comportamiento base por defecto de dicho evento y añadirle otro diferente:
 
-![alt text](im./imagenes-object-event/age-6.png)
+![alt text](./imagenes-object-event/image-6.png)
 
 De esta forma, veremos que al pulsar sobre el elemento <details> ya no se expande ni se contrae, por lo que ahora podríamos crear nuestra propia lógica para reimplementar esta funcionalidad.
 

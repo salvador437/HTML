@@ -75,7 +75,7 @@ De la misma forma que mencionamos anteriormente, hay que tener en cuenta que los
 
 Ten en cuenta que los mismos métodos anteriores, soportan varios parámetros, para hacer más cómodo su utilización y no tener que estar usándolos uno por uno. Así por ejemplo, se puede usar setFullYear() para cambiar año, año y mes, o año, mes y día:
 
-![alt text](i./imagenes-el-tipo-date/mage-9.png)
+![alt text](./imagenes-el-tipo-date/image-9.png)
 
 Por último, también tenemos a nuestra disposición el método setter setTime(ts), que nos permite establecer una fecha a partir de un tiempo Unix ts. Es el equivalente a hacer un new Date(ts).
 

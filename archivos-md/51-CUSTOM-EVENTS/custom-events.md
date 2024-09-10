@@ -8,7 +8,7 @@ Crear un evento personalizado en Javascript es muy sencillo. Se basa en crear un
 
 Así pues, definir un evento personalizado se haría de la siguiente forma:
 
-![alt text](image.png)
+![alt text](./imagenes-custom-events/image.png)
 
 En lugar de CustomEvent también se puede indicar simplemente Event (o alguno de sus objetos derivados). La diferencia radica en que CustomEvent se suele utilizar cuando queremos añadir datos personalizados, como vamos a hacer a continuación en las opciones.
 
@@ -28,7 +28,7 @@ El segundo parámetro del CustomEvent es un OBJECT donde podremos especificar va
 
 A continuación, tienes una lista de las propiedades que pueden contener estas opciones:
 
-![alt text](image-1.png)
+![alt text](./imagenes-custom-events/image-1.png)
 
 En el siguiente fragmento de código vemos como se declara una instancia de CustomEvent llamada user:data-message, la cuál tiene ciertas opciones definidas, entre las que se encuentran que:
 
@@ -38,7 +38,7 @@ En el siguiente fragmento de código vemos como se declara una instancia de Cust
 
 Veamos ahora el código:
 
-![alt text](image-2.png)
+![alt text](./imagenes-custom-events/image-2.png)
 
 Dentro del objeto de opciones, podemos ver que tenemos un objeto detail que es definido por el desarrollador, ya que es el diseñador del evento personalizado. El resto, son opciones del evento que explicaremos más adelante.
 
@@ -47,12 +47,12 @@ Los eventos nativos Event se suelen utilizar de forma interna por el navegador p
 
 Aún así, nosotros podemos «falsear» un evento de navegador y crearlo nosotros mismos, simulando que ha sido realizado por un usuario real. En el siguiente ejemplo, tenemos dos elementos: un <button></button> button y un <span></span> span:
 
-![alt text](image-3.png)
+![alt text](./imagenes-custom-events/image-3.png)
 
 Hemos añadido un evento para que muestre un mensaje cuando hagas click en el <button>. Sin embargo, también hemos añadido otro evento en el <span> para que cuando muevas el ratón sobre él, cree un nuevo evento de click de ratón y lo envíe al botón. De esta forma, se disparará el otro evento en escucha como si el usuario real hubiera hecho click en el botón.
 
 Al margen de este detalle, normalmente los Event se usan solamente para eventos reales del navegador. Si necesitamos controlar alguna acción determinada utilizaremos CustomEvent, asignándole un nombre de evento y personalizando su funcionamiento.
 
-![alt text](image-4.png)
+![alt text](./imagenes-custom-events/image-4.png)
 
 Por ejemplo, entre otras cosas, los CustomEvent permiten añadir información adicional al crear el objeto, mientras que el objeto Event no lo permite.

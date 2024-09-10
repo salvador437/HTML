@@ -52,7 +52,7 @@ Si estamos transpilando nuestro código de Typescript a Javascript, podemos indi
 ## <span style="color:orange">¿Javascript cliente o servidor?.</span>
 Ojo con esta opción. Las opciones no son exclusivas, sino que podemos marcar una o varias (utilizando SPACE). Con esta opción enfocamos el linter para revisar código teniendo en cuenta si va dirigido exclusivamente a navegadores (sin Node), si es código Javascript de NodeJS o un híbrido donde se usan ambas:
 
-![alt text]./imagenes-eslint/(./imagenes-eslint/image-5.png)
+![alt text](./imagenes-eslint/image-5.png)
 
 ## <span style="color:orange">Guía de estilo Javascript.</span>
 Esta es una de las opciones más importantes, ya que con ella nutrimos al linter con la información necesaria para saber como corregir nuestro código Javascript. La opción recomendable es la primera, donde le decimos que utilice una guía de estilo popular. Posteriormente, ESLint nos ofrecerá una de las tres más famosas (aunque se pueden utilizar otras fuera del asistente).
@@ -143,7 +143,7 @@ Una de las características más interesantes de ESLint, es utilizar la caracter
 Esto hará que ESLint revise el archivo src/js/index.js y corrija todos los errores posibles del código de forma automática. Sin embargo, lo práctico sería que nos lo corrija en el VSCode al guardar, no tener que hacerlo desde una consola. Para conseguir esto, necesitamos seguir los siguientes pasos:
 
    - Paso 1: Configurar ESLint con el asistente o el fichero de configuración (visto anteriormente)
-   - Paso 2: Instalar el plugin https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint en VSCode
+   - Paso 2: ![Instalar el plugin] (https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) en VSCode
    - Paso 3: Añadir las siguientes líneas de configuración en VSCode, pulsando 
 
 y seleccionando Settings (JSON):
