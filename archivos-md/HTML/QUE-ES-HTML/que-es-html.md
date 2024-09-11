@@ -10,7 +10,7 @@ El documento que lee el navegador está escrito en un lenguaje de marcado llamad
 ## <span style="color:orange">¿Qué es una etiqueta HTML?.</span>
 En los navegadores, tienes varias formas de acceder al código HTML de la página:
 
-Pulsando la combinación de teclas ctrl +. u, Te aparecerá el código fuente tal cuál lo recibe el navegador.
+Pulsando la combinación de teclas ctrl +. u, Te aparecerá el código fuente tal cuál lo recibe el navegador .
 
 Pulsando CTRL+SHIFT+I y accediendo a la pestaña Elements, o simplemente haciendo click con botón derecho y seleccionando la opción Inspeccionar. Aquí tienes un panel más avanzado e interactivo.
 
