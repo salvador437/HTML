@@ -166,7 +166,7 @@ En muchos casos, nos encontraremos que typeof resulta insuficiente porque en tip
 
 De momento, si lo necesitamos, podemos comprobarlo así:
 
-![alt text](image-7.png)
+![alt text](./imagenes-glosario-javascript/image-7.png)
 
 Observa que en tipo de datos no primitivos, que veremos más adelante, como los arrays, no nos dice object como hacía el typeof, sino que nos devuelve específicamente Array.
 
@@ -174,7 +174,7 @@ Observa que en tipo de datos no primitivos, que veremos más adelante, como los 
 
 La acción de convertir JSON a objeto Javascript se le suele denominar parsear. Es una acción que analiza un STRING que contiene un JSON válido y devuelve un objeto Javascript con dicha información correctamente estructurada. Para ello, utilizaremos el mencionado método JSON.parse():
 
-![alt text](image-4.png)
+![alt text](./imagenes-glosario-javascript/image-4.png)
 
 Como se puede ver, OBJECT user es un objeto generado a partir del JSON almacenado en la variable json y podemos consultar sus propiedades y trabajar con ellas sin problemas.
 
