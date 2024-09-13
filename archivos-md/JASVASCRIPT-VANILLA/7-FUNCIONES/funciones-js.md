@@ -190,7 +190,7 @@ Por lo tanto, en la variable incr guardamos una función que además conoce el v
 Si nos fijamos en la función que devolvemos, lo que hace es incrementar el valor de num y devolverlo. Como la variable incr es una clausura y mantiene la variable en su propio ámbito, veremos que a medida que ejecutamos incr(), los valores de num (que estamos devolviendo) conservan su valor y se van incrementando.
 
 ## <span style="color:orange">¿Qué es una función callback?</span>
-Ahora que conocemos las funciones anónimas, podemos comprender más fácilmente lo que son los callbacks (también llamadas funciones callback o retrollamadas) y como utilizarlos.
+Ahora que conocemos las funciones anónimas, podemos comprender más fácilmente lo que son los callbacks (también llamadas funciones callback o retrollamadas) y como utilizarlas.
 
 A grandes rasgos, un callback (llamada hacia atrás) es pasar una función por parámetro a otra función, de modo que esta última función puede ejecutar la función pasada por parámetro de forma genérica desde su propio código, y nosotros podemos definirlas desde fuera de dicha función.
 

@@ -161,8 +161,22 @@ Operador || (OR)
 
     El cortocircuito de los operadores lógicos permite a JavaScript optimizar la evaluación de expresiones, evitando el trabajo innecesario y permitiendo patrones útiles, como la asignación de valores por defecto o la ejecución condicional de código.
 
+## <span style="color:orange">La propiedad constructor.name</span> 👨🏻‍🎓
+En muchos casos, nos encontraremos que typeof resulta insuficiente porque en tipos de datos más avanzados simplemente nos indica que son objetos, pero no sabes que clase de objeto específico. Con constructor.name, que es una parte de la Orientación a objetos podemos obtener el tipo de constructor que se utiliza, un concepto que veremos más adelante dentro del tema de clases.
 
- 
+De momento, si lo necesitamos, podemos comprobarlo así:
+
+![alt text](image-7.png)
+
+Observa que en tipo de datos no primitivos, que veremos más adelante, como los arrays, no nos dice object como hacía el typeof, sino que nos devuelve específicamente Array.
+
+## <span style="color:orange">Parsear</span> 👨🏻‍🎓 
+
+La acción de convertir JSON a objeto Javascript se le suele denominar parsear. Es una acción que analiza un STRING que contiene un JSON válido y devuelve un objeto Javascript con dicha información correctamente estructurada. Para ello, utilizaremos el mencionado método JSON.parse():
+
+![alt text](image-4.png)
+
+Como se puede ver, OBJECT user es un objeto generado a partir del JSON almacenado en la variable json y podemos consultar sus propiedades y trabajar con ellas sin problemas.
 
 
 
