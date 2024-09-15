@@ -1,4 +1,4 @@
-# <span style="color:lime"><center>BEsquinas redondeadas</center></span>
+# <span style="color:lime"><center>Esquinas redondeadas</center></span>
 
 CSS3 añade interesantes características en materia de bordes, como la posibilidad de crear bordes con esquinas redondeadas, característica que en versiones anteriores de CSS era muy complicado de lograr, necesitando recurrir al apoyo de imágenes gráficas. Por su parte, en CSS3 es realmente sencillo hacerlo mediante código.
 
