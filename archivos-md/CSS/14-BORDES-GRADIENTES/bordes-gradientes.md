@@ -15,7 +15,7 @@ css:
 html:
 ![alt text](./imagenes-bordes-gradientes/image-1.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-gradientes/image-2.png)
 
 No tiene interacción, se la daremos más adelante.
@@ -35,7 +35,7 @@ css:
 html:
 ![alt text](./imagenes-bordes-gradientes/image-4.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-gradientes/image-5.png)
 
 Observa que el segundo botón le hemos establecido un valor 1 1 1 1 fill, esto se comporta exactamente igual que 1 1 1 1, pero sin descartar el relleno, por lo que pinta también el interior.
@@ -56,7 +56,7 @@ css:
 html:
 ![alt text](./imagenes-bordes-gradientes/image-9.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-gradientes/image-10.png)
 
 Observa que hemos hecho algunos añadidos:

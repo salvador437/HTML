@@ -28,7 +28,7 @@ CSS:
 ![alt text](./imagenes-dimensiones-css/image-2.png)
 HTML:
 ![alt text](./imagenes-dimensiones-css/image-3.png)
-VISTA:
+👓VISTA:
 ![alt text](./imagenes-dimensiones-css/image-4.png)
 
 En este caso, puedes probar a redimensionar la ventana de demostración (esquina inferior-derecha). Hemos definido un tamaño máximo de ancho de 800px, y un mínimo de 300px. A la misma vez, le aplicamos un width de 100% para que intente ocupar el máximo posible, siempre respetando los límites anteriores: nunca superará los 800px y nunca será más pequeño de los 300px.
@@ -48,7 +48,7 @@ CSS:
 ![alt text](./imagenes-dimensiones-css/image-6.png)
 HTML:
 ![alt text](./imagenes-dimensiones-css/image-7.png)
-VISTA:
+👓VISTA:
 ![alt text](./imagenes-dimensiones-css/image-8.png)
 
 De momento, la función fit-content() no está soportada en navegadores.

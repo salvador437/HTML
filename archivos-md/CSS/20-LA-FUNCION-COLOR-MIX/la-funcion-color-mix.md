@@ -18,7 +18,7 @@ css:
 html:
 ![alt text](./imagenes-la-funcion-color-mix/image-2.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-la-funcion-color-mix/image-3.png)
 
 Al no indicar las cantidades de cada color explícitamente, estamos indicando de forma implícita que usaremos el 50% del color 1, y el 50% del color 2.
@@ -47,7 +47,7 @@ css:
 html:
 ![alt text](./imagenes-la-funcion-color-mix/image-8.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-la-funcion-color-mix/image-9.png)
 
 Observa que tras indicar el espacio de color hemos indicado la palabra clave longer. Podemos utilizar increasing y longer o decreasing y shorter, siempre seguidas de la palabra clave hue. Esto permite especificar como los valores de la rueda de color serán interpolados.
@@ -63,7 +63,7 @@ css:
 html:
 ![alt text](./imagenes-la-funcion-color-mix/image-11.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-la-funcion-color-mix/image-12.png)
 
 Todo el color de este botón, depende directamente de la variable CSS --color, por lo que si la cambiamos, afectará al resto de colores. Esto lo hace mucho más mantenible y sencillo de cambiar.

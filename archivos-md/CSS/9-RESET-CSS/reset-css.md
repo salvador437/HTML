@@ -8,7 +8,7 @@ css:
 html:
 ![alt text](./imagenes-reset-css/image-1.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-reset-css/image-2.png)
 
 Observa que entre las cajas que he definido con borde rojo hay cierta cantidad de espacio. Esto ocurre porque los navegadores tienen un margen por defecto en los elementos p y h1.

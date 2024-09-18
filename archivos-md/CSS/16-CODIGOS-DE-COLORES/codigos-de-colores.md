@@ -15,7 +15,7 @@ css:
 html:
 ![alt text](./imagenes-codigos-de-colores/image-2.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-codigos-de-colores/image-3.png)
 
 Sin embargo, aunque se suele hacer mucho en fases de aprendizaje, lo normal no suele ser indicar colores con palabras clave, ya que es una forma poco precisa de hacerlo, sino utilizar alguna función CSS de colores que veremos a continuación.

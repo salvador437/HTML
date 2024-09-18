@@ -22,7 +22,7 @@ css:
 html:
 ![alt text](./imagenes-bordes-css/image-3.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-css/image-4.png)
 
 Sin embargo, el borde más frecuente suele ser solid, que no es más que un borde liso y continuo. Pueden utilizarse cualquiera de los estilos indicados en la tabla anterior e incluso combinar con otras propiedades. Recuerda que si no aplica una de ellas, se aplica el valor por defecto.
@@ -44,7 +44,7 @@ css:
 html:
 ![alt text](./imagenes-bordes-css/image-7.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-css/image-8.png)
 
 En el ejemplo anterior hemos utilizado 3 parámetros, indicando un elemento con borde superior rojo sólido de 2 píxeles de grosor, con borde izquierdo y derecho punteado azul de 10 píxeles de grosor y con un borde inferior verde sólido de 5 píxeles de grosor.
@@ -71,7 +71,7 @@ css:
 html:
 ![alt text](./imagenes-bordes-css/image-12.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-css/image-13.png)
 
 Esto dibujaría sólo un borde inferior negro de 2 píxeles de grosor y con estilo punteado. Ahora imaginemos que queremos un elemento con todos los bordes en rojo a 5 píxeles de grosor, salvo el borde superior, que lo queremos con un borde de 15 píxeles en color naranja. Podríamos hacer lo siguiente:
@@ -82,7 +82,7 @@ css:
 html:
 ![alt text](./imagenes-bordes-css/image-15.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-css/image-16.png)
 
 El ejemplo anterior conseguiría nuestro objetivo. La primera propiedad establece todos los bordes del elemento, sin embargo, las siguientes propiedades modifican sólo el borde superior, cambiándolo a las características indicadas.
@@ -97,7 +97,7 @@ css:
 html:
 ![alt text](./imagenes-bordes-css/image-19.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-css/image-20.png)
 
 Dichas propiedades de atajo serían las siguientes:

@@ -19,7 +19,7 @@ CSS:
 HTML:
 ![alt text](./imagenes-colores-relativos/image-2.png)
 
-VISTA:
+👓VISTA:
 ![alt text](./imagenes-colores-relativos/image-3.png)
 
 El navegador lee el color indicado tras la palabra clave from y lo separa en los componentes r, g y b, de forma que si luego los indicamos, podemos hacer variaciones o modificaciones. Observa este ejemplo:
@@ -30,7 +30,7 @@ CSS:
 HTML:
 ![alt text](./imagenes-colores-relativos/image-5.png)
 
-VISTA:
+👓VISTA:
 ![alt text](./imagenes-colores-relativos/image-6.png)
 
 En este caso estamos anulando el canal r (rojo) con un 0, mientras que el canal g y b se mantiene igual. Esto crearía el color relativo #00201a desde el original #a8201a.
@@ -47,7 +47,7 @@ CSS:
 HTML:
 ![alt text](./imagenes-colores-relativos/image-9.png)
 
-VISTA:
+👓VISTA:
 ![alt text](./imagenes-colores-relativos/image-10.png)
 
 Internamente, los valores r, g y b, CSS los trata como un valor numérico del 0 al 1. Como el rojo está al máximo y el verde y azul al mínimo, los valores obtenidos por CSS son r=1, g=0 y b=0. En el segundo cuadrado, le sumamos un poco a g y b, por lo que tenemos un color algo más claro.
@@ -65,7 +65,7 @@ CSS:
 HTML:
 ![alt text](./imagenes-colores-relativos/image-12.png)
 
-VISTA:
+👓VISTA:
 ![alt text](./imagenes-colores-relativos/image-13.png)
 
 Creando 3 variables --r, --g y --b, donde cada una guarda la cantidad de color de los canales RGB y usándolo en el interior de una [función rgb() de sintaxis moderna](https://lenguajecss.com/css/colores/funcion-rgb/) se podría conseguir algo similar a lo anterior.
@@ -78,7 +78,7 @@ CSS:
 HTML:
 ![alt text](./imagenes-colores-relativos/image-15.png)
 
-VISTA:
+👓VISTA:
 ![alt text](./imagenes-colores-relativos/image-16.png)
 
 Sin embargo, esto no es muy práctico y no puede utilizarse con esquemas de color como hexadecimal, por ejemplo.

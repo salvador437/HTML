@@ -33,7 +33,7 @@ html:
 css:
 ![alt text](./imagenes-bordes-con-imagenes/image-2.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-con-imagenes/image-3.png)
 
 Como comprobarás, hemos establecido un borde básico, de 42px de grosor, de color negro, que bordea el contenido. Nuestra intención es comenzar a utilizar border-image para utilizar una imagen, en lugar de un color sólido.
@@ -51,7 +51,7 @@ css:
 html:
 ![alt text](./imagenes-bordes-con-imagenes/image-6.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-con-imagenes/image-7.png)
 
 Comprobarás que el resultado es, cuanto menos, extraño. Al establecer una imagen con border-image-source, por defecto, lo que hace es establecer la imagen de modo que aparezca en cada esquina, redimensionándola. Esto dista mucho de lo que queremos conseguir, pero es un primer paso. Ahora utilizaremos otras propiedades para ajustarlo y dejarlo a nuestro gusto.
@@ -74,7 +74,7 @@ html:
 js:
 ![alt text](./imagenes-bordes-con-imagenes/image-11.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-con-imagenes/image-12.png)
 
 Juega un poco con los valores del tamaño width del elemento (sin imagen) y observa el espacio que ocupa. Luego, prueba a activar el border-image-source y cambiar su tamaño con border-image-width para comprender como funciona. No le verás mucho sentido de momento, ya que nos falta aprender algunas propiedades más, pero sabrás como funciona y podrás alterar el resultado final.
@@ -101,7 +101,7 @@ html:
 js:
 ![alt text](./imagenes-bordes-con-imagenes/image-16.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-con-imagenes/image-17.png)
 ![alt text](./imagenes-bordes-con-imagenes/image-18.png)
 ![alt text](./imagenes-bordes-con-imagenes/image-19.png)
@@ -126,7 +126,7 @@ html:
 js:
 ![alt text](./imagenes-bordes-con-imagenes/image-25.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-con-imagenes/image-26.png)
 ![alt text](./imagenes-bordes-con-imagenes/image-27.png)
 ![alt text](./imagenes-bordes-con-imagenes/image-28.png)
@@ -163,7 +163,7 @@ html:
 js:
 ![alt text](./imagenes-bordes-con-imagenes/image-33.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-bordes-con-imagenes/image-34.png)
 ![alt text](./imagenes-bordes-con-imagenes/image-35.png)
 ![alt text](./imagenes-bordes-con-imagenes/image-36.png)

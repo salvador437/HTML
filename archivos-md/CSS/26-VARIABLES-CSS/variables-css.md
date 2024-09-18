@@ -30,7 +30,7 @@ A la hora de utilizar una custom property, hay que utilizar la función var(), i
 css:
 ![alt text](./imagenes-variables-css/image-1.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-variables-css/image-2.png)
 
 En este caso estamos aplicando a la propiedad background el valor que contiene la variable --background-color en el elemento <body>. Observa que aunque la variable fue definida en :root, o sea en la etiqueta <html>, existe en todos sus elementos hijos, por lo que también existe en <body> y se puede utilizar.
@@ -41,7 +41,7 @@ Además, en muchas situaciones es recomendable que la función var() tenga dos p
 css:
 ![alt text](./imagenes-variables-css/image-3.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-variables-css/image-4.png)
 
 En este caso, la variable --background-color no está definida, por lo que el elemento body tendrá el color de fondo verde, ya que es el fallback indicado.
@@ -59,7 +59,7 @@ html:
 css:
 ![alt text](./imagenes-variables-css/image-6.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-variables-css/image-7.png)
 
 
@@ -77,7 +77,7 @@ html:
 css:
 ![alt text](./imagenes-variables-css/image-9.png)
 ![alt text](./imagenes-variables-css/image-10.png)
-vista:
+👓vista:
 ![alt text](./imagenes-variables-css/image-11.png)
 
 Como se puede ver en este ejemplo, hemos utilizado la clase .love-type para definir la variable, y hemos reutilizado la variable a lo largo del componente .card, utilizándolo en varias partes de la misma.

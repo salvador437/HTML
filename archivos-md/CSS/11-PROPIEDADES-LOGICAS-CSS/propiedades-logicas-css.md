@@ -23,7 +23,7 @@ css:
 html:
 ![alt text](./imagenes-propiedades-logicas-css/image-2.png)
 
-vista:
+👓vista:
 ![alt text](./imagenes-propiedades-logicas-css/image-3.png)
 
 En el ejemplo anterior, prueba a cambiar el valor de la propiedad writing-mode entre horizontal-tb, vertical-rl o vertical-lr. Tras leer este artículo, este ejemplo cobrará sentido.
