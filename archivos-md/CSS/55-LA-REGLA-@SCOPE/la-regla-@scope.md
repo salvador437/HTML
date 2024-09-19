@@ -31,9 +31,9 @@ Para solucionar esto, se han ideado multitud de sistemas:
 Sin embargo, todas tienen su complejidad, ventajas y desventajas. Ahora, con la regla @scope tendremos un mecanismo más, pero esta vez muy simple, con CSS nativo, sin recurrir a complejas herramientas, metodologías o tecnologías.
 
 ## <span style="color:violet">La regla @scope en línea</span>
-Un detalle interesantísimo sobre la regla @scope es que puede trabajar en níveles de profundidad concretos del HTML, dependiendo de donde declares los estilos, mediante una etiqueta <style>.
+Un detalle interesantísimo sobre la regla @scope es que puede trabajar en níveles de profundidad concretos del HTML, dependiendo de donde declares los estilos, mediante una etiqueta style.
 
-Observa el siguiente ejemplo, donde se declara la etiqueta <style> en el interior de un <div> con clase .container. La regla @scope en una etiqueta <style> actúa sólo en el ámbito de su etiqueta padre, por lo que estos estilos están limitados sólo a la etiqueta <strong> interior:
+Observa el siguiente ejemplo, donde se declara la etiqueta style en el interior de un div con clase .container. La regla @scope en una etiqueta style actúa sólo en el ámbito de su etiqueta padre, por lo que estos estilos están limitados sólo a la etiqueta strong interior:
 
 html:
 ![alt text](./imagenes-la-regla-@scope/image-2.png)
