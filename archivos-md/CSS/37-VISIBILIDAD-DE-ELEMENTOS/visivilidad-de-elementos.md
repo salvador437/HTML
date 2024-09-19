@@ -76,4 +76,4 @@ Existen algunos matices que conviene destacar:
 
    - 3️⃣ Otra opción, podría ser utilizar un pseudoelemento ::before o ::after para mantener la nueva información separada del contenido del elemento. De esta forma, se puede aplicar una función opacity() al pseudoelemento y sólo le afectará a él, manteniendo el elemento intacto.
 
-Estos valores, al ser cuantificables, el navegador sabe perfectamente como transicionarlos o animarlos y se pueden hacer efectos donde elementos aparezcan o se desvanezcan gradualmente. Tienes más información detallada en el artículo dedicado a las transiciones CSS.
+Estos valores, al ser cuantificables, el navegador sabe perfectamente como transicionarlos o animarlos y se pueden hacer efectos donde elementos aparezcan o se desvanezcan gradualmente. Tienes más información detallada en el artículo dedicado a las [transiciones CSS](https://lenguajecss.com/css/animaciones/transiciones/).
