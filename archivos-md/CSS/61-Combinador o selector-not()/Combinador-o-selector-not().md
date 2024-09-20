@@ -67,3 +67,4 @@ Algunos detalles adicionales (e importantes) sobre la pseudoclase funcional :not
    - El combinador :not() no acepta pseudoelementos, como ::before o ::after, por parámetro.
    - Al igual que con :is(), la especificidad de :not() es el valor más alto de sus parámetros.
 
+
