@@ -81,7 +81,7 @@ Por último, mencionar que también tenemos la posibilidad de ser más específi
 
 En este ejemplo, sólo se aplicarán los estilos cuando el elemento HTML cumpla las siguientes condiciones (observa que no existen espacios entre las clases classic, primary y large):
 
-   - Sea un elemento HTML <button>
+   - Sea un elemento HTML <button>button
    - Tenga una clase .classic
    - Tenga una clase .primary
    - Tenga una clase .large
