@@ -1,4 +1,4 @@
-## <span style="color:violet">Listas CSS</span>
+# <span style="color:lime">Listas CSS</span>
 
 Al crear listas HTML mediante las etiquetas "ol" o "ul", dichas etiquetas poseen propiedades CSS específicas para alterar el estilo o características de las marcas o viñetas que se crean a la izquierda de los items de la lista, mediante la etiqueta HTML "li".
 
