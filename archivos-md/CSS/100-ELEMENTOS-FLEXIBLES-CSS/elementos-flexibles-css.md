@@ -18,7 +18,7 @@ css:
 ![alt text](./imagenes-elementos-flexibles-css/image-1.png)
 
 html:
-![alt text](i./imagenes-elementos-flexibles-css/mage-2.png)
+![alt text]./imagenes-elementos-flexibles-css/mage-2.png)
 
 vista:
 ![alt text](./imagenes-elementos-flexibles-css/image-3.png)
@@ -103,3 +103,4 @@ vista:
 ![alt text](./imagenes-elementos-flexibles-css/image-15.png)
 
 Observa que el truco está en utilizar la propiedad transition, que veremos en el apartado de Transiciones, en todos los elementos hijos para preparar una animación cada vez que hagamos el :hover y movamos el ratón sobre un elemento que cambia sus valores de flexibilidad mediante flex y su color de fondo mediante background.
+
