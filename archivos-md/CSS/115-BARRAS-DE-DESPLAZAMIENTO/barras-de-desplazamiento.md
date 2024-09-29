@@ -123,5 +123,6 @@ Recuerda que las propiedades iniciales que vimos son las propiedades estándar y
 
 La mejor forma de realizar esto, es utilizar la regla @supports, donde podemos definir como queremos utilizarlo:
 
-![alt text](imagenes -barras-de-desplazamiento/image-24.png)
+![alt text](imagenes-barras-de-desplazamiento/image-24.png)
+
 
