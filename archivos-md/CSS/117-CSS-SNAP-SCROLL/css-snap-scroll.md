@@ -6,19 +6,19 @@ Estas propiedades pertenecen a la familia de propiedades scroll-snap, entre las 
 
 Para ello, utilizaremos el esquema del ejemplo base del artículo anterior, donde el elemento con clase .container es el elemento padre contenedor y los elementos con clase .slide son los elementos hijos:
 
-![alt text](image.png)
+![alt text](./imagenes-css-snap-scroll/image.png)
 
 Vamos a explicarlo por partes, donde diferenciaremos las propiedades aplicadas al contenedor padre y las propiedades aplicadas a los elementos hijos.
 
 ## <span style="color:violet">Propiedades para el contenedor</span>
 Así pues, dentro del estándar de CSS Scroll Snap, tenemos unas propiedades que afectan a nuestro elemento padre contenedor. Son las siguientes propiedades:
 
-![alt text](image-1.png)
+![alt text](./imagenes-css-snap-scroll/image-1.png)
 
 ## <span style="color:violet">La propiedad scroll-snap-typer</span>
 La propiedad scroll-snap-type es la propiedad de control que establece el mecanismo de ajuste de scroll en el desplazamiento por parte del usuario. Para ello, tenemos que indicar dos valores:
 
-![alt text](image-2.png)
+![alt text](./imagenes-css-snap-scroll/image-2.png)
 
 En el primer caso, x e y indican si se trata de un desplazamiento en horizontal o vertical. Los valores block e inline son sus equivalentes en propiedades lógicas. Por último, both es ideal si se quiere que se apliquen ambas.
 
@@ -29,18 +29,18 @@ Recuerda que las barras de scroll deben estar visibles para que funcione correct
 ## <span style="color:violet">La propiedad scroll-padding</span>
 También tenemos disponible la propiedad scroll-padding, que permite indicar una separación de relleno entre el ajuste que encaja exactamente al terminar el desplazamiento y el límite de esa zona. Como la propiedad padding de CSS, scroll-padding también tiene sus propiedades individuales:
 
-![alt text](image-3.png)
+![alt text](./imagenes-css-snap-scroll/image-3.png)
 
 También tenemos otras propiedades como scroll-padding-block o scroll-padding-inline, y sus derivadas como scroll-padding-*-start o scroll-padding-*-end, que son sus equivalentes en [propiedades lógicas](https://lenguajecss.com/css/modelo-de-cajas/propiedades-logicas-css/).
 
 Retomaremos el ejemplo del capítulo anterior. Sin embargo, observa el CSS de la clase .container. Le hemos añadido una pequeña parte donde activamos las propiedades scroll-snap-type y scroll-padding, previamente indicando que necesitamos scroll en el eje vertical con overflow-y:
 
 html:
-![alt text](image-4.png)
+![alt text](./imagenes-css-snap-scroll/image-4.png)
 
 css:
-![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](./imagenes-css-snap-scroll/image-5.png)
+![alt text](./imagenes-css-snap-scroll/image-6.png)
 
 Con scroll-snap-type: y mandatory indicamos que el scroll se va a aplicar en vertical y que va a ser obligatorio, además de no dejar ningún padding de scroll. Prueba a cambiar mandatory por proximity y comprueba que el ajuste se realiza por proximidad, en lugar de forma obligatoria (por dirección).
 
@@ -49,7 +49,7 @@ Sin embargo, todo esto no funcionaría si no establecemos las propiedades de la 
 ## <span style="color:violet">Propiedades para los hijos</span>
 En las propiedades hijas de nuestro contenedor con CSS Scroll Snap (en nuestro caso .slide), tenemos las siguientes propiedades que nos permitirán configurar el ajuste de scroll:
 
-![alt text](image-7.png)
+![alt text](./imagenes-css-snap-scroll/image-7.png)
 
 ## <span style="color:violet">Propiedad scroll-snap-align</span>
 La propiedad scroll-snap-align es una propiedad que permite indicar la posición de ajuste. Puede tomar los valores start, end y center y en el caso de indicarse dos parámetros, se aplica al eje horizontal (inline) y al eje vertical (block). Si sólo se indica un parámetro, se aplica el mismo valor a ambos.
@@ -70,11 +70,11 @@ De forma análoga a scroll-padding, también tenemos una propiedad scroll-margin
 
 De la misma forma que el anterior, podemos utilizar sus propiedades individuales:
 
-![alt text](image-8.png)
+![alt text](./imagenes-css-snap-scroll/image-8.png)
 
 En nuestro ejemplo anterior indicamos este CSS adicional:
 
-![alt text](image-9.png)
+![alt text](./imagenes-css-snap-scroll/image-9.png)
 
 Con la propiedad scroll-snap-align indicamos donde debe detenerse el scroll. Recuerda modificar el tamaño de alto del slide si quieres verlo sobre este ejemplo.
 
@@ -85,9 +85,9 @@ Recuerda que aunque este ejemplo se haga sobre toda la pantalla y en vertical, p
 El siguiente ejemplo es un pequeño slider horizontal de elementos de texto:
 
 html:
-![alt text](image-10.png)
+![alt text](./imagenes-css-snap-scroll/image-10.png)
 
 css:
-![alt text](image-11.png)
-![alt text](image-12.png)
+![alt text](./imagenes-css-snap-scroll/image-11.png)
+![alt text](./imagenes-css-snap-scroll/image-12.png)
 
