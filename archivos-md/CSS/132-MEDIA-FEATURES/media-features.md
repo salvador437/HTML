@@ -141,3 +141,4 @@ vista:
 ![alt text](./imagenes-media-features/image-22.png)
 
 La diferencia entre pointer / hover y su versión any-* es que la primera hace referencia al dispositivo primario, mientras que las versiones con el prefijo any- hacen referencia a que tengan al menos un dispositivo, aunque no sea el primario.
+
