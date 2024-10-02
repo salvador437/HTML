@@ -50,5 +50,5 @@ Los comentarios son una práctica muy común y habitual en los desarrolladores o
 
 ![alt text](./imagenes-estructura-de-etiquetas-html/image-4.png)
 
-Como se puede ver, para introducir estos comentarios en el código HTML, basta con escribir los fragmentos de texto <!-- y -->![alt text](imagen.png) entre el comentario en cuestión que queramos incluir.
+Como se puede ver, para introducir estos comentarios en el código HTML, basta con escribir los fragmentos de texto <!-- y -->![alt text](./imagenes-estructura-de-etiquetas-html/imagen.png) entre el comentario en cuestión que queramos incluir.
 
