@@ -1,4 +1,4 @@
-# <span style="color:lime"><center>Atributos comunes en HTMLL</center></span>
+# <span style="color:lime"><center>Atributos comunes en HTML</center></span>
 
 Como hemos visto, el HTML está formado por etiquetas. Muchas etiquetas. Cada etiqueta tiene una misión y tarea y contendrá cierto contenido relacionado con su misión. Y además tenemos los atributos, que son palabras clave de texto que modifican ligeramente el comportamiento de la etiqueta que lo contiene.
 
