@@ -1,0 +1,28 @@
+# <span style="color:lime"><center>Translaciones 2D</center></span>
+
+Las funciones de translación son aquellas que realizan una transformación en la que mueven un elemento de un lugar a otro. Para ello, las utilizaremos en el interior de la propiedad CSS transform y elegiremos una de las siguientes funciones de translación.
+
+## <span style="color:violet">Funciones de translación</span>
+Respecto al ámbito 2D, tenemos 3 funciones de translación: translateX() y translateY() para cada eje, y la propiedad de atajo translate(), que es una mezcla de las dos anteriores en una sola función de translación.
+
+Si especificamos un valor positivo en el eje X (horizontal), lo moveremos hacia la derecha, y si especificamos un valor negativo, lo moveremos hacia la izquierda. Ocurre exactamente lo mismo con el eje Y (vertical), que con valores negativos lo movemos hacia arriba y con valores positivos lo movemos hacia abajo:
+
+![alt text](./imagenes-traslaciones-2d-md/image.png)
+
+Por ejemplo, la propiedad transform: translate(20px, -30px) traslada el elemento 20 píxeles a la derecha y 30 píxeles hacia arriba, que es equivalente a utilizar transform: translateX(20px) translateY(-30px).
+
+![alt text](./imagenes-traslaciones-2d-md/image-1.png)
+
+Consejo: En las translaciones, si utilizamos los PERCENT, podemos hacer referencia al propio tamaño del elemento. Por ejemplo, si indicamos transform: translateX(100%) estaremos desplazando horizontalmente exactamente el tamaño de ancho del elemento.
+
+## <span style="color:violet">La propiedad translate</span>
+En nuevas versiones de los navegadores, ya se soporta la propiedad individual translate, y no hace falta utilizarla dentro de la propiedad transform.
+
+![alt text](./imagenes-traslaciones-2d-md/image-2.png)
+
+Como se puede ver, se puede indicar 1 parámetro, 2 parámetros o 3 parámetros, dependiendo de los ejes que quieras desplazar. En el caso de indicar sólo un parámetro, los demás ejes serán 0px por defecto.
+
+Veamos varios ejemplos:
+
+![alt text](./imagenes-traslaciones-2d-md/image-3.png)
+
