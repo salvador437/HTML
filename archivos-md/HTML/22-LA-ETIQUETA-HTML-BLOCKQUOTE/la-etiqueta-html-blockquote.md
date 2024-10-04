@@ -1,14 +1,13 @@
-# <span style="color:lime">La etiqueta HTML <blockquote>.</span>
+# <span style="color:lime">La etiqueta HTML < blockquote >.</span>
 
 
-  - Las etiquetas HTML < ul > y < ol >
+  -  Las etiquetas HTML < ul > y < ol >
   -  La etiqueta HTML < blockquote >
   -  La etiqueta HTML < pre >
 
 
 Una etiqueta que no suele ser bien comprendida en el Lenguaje HTML es la etiqueta < blockquote >. Muchos desarrolladores utilizan las etiquetas de enlaces < a > o la de párrafos < p > para escribir un texto y enlazar la fuente, sin embargo, HTML tiene herramientas mucho más apropiadas para este objetivo.
 
-## <span style="color:orange">Citas o referencias.</span>
 La etiqueta < blockquote > se utiliza, como su propio nombre indica, para crear un bloque o sección donde aparezca un texto que es una cita o referencia a una obra o fuente de información. Dicha fuente de información puede ser un libro, una canción, un documento, una serie de televisión, etc...
 
 En definitiva, una obra o documento de cualquier tipo. Veamos un ejemplo, con una cita de una película:
