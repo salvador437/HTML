@@ -8,7 +8,7 @@ Las etiquetas en cuestión serían las siguientes:
 
 Veamos exactamente como funcionan a continuación.
 
-## <span style="color:orange">Figuras: La etiqueta <figure>.</span>
+## <span style="color:orange">Figuras: La etiqueta < figure >.</span>
 Observa que la etiqueta HTML < figure > es una etiqueta de agrupación que debe contener el elemento de contenido, en este ejemplo una imagen < img >, y la etiqueta < figcaption > que contendrá la leyenda o mensaje que acompaña al elemento anterior.
 
 html:
@@ -19,7 +19,7 @@ vista:
 
 A parte de los atributos comunes de cualquier etiqueta HTML, la etiqueta < figure > no tiene atributos especiales propios.
 
-## <span style="color:orange">La etiqueta <figcaption>.</span>
+## <span style="color:orange">La etiqueta < figcaption >.</span>
 Por otro lado, la etiqueta < figcaption > nos permite añadir un texto a pie de contenido, generalmente, bajo la imagen , video, audio, fragmento de código, tabla o información que contiene la ilustración < figure >.
 
 El texto de este elemento generalmente es una aclaración o ampliación de la información que se ve en la figura o ilustración, añadiendo más detalles o aclarando algún contenido para que el lector se centre en él.
