@@ -1,4 +1,4 @@
-# <span style="color:lime">Formatos multimedia <audio>.</span>
+# <span style="color:lime">Formatos multimedia < audio >.</span>
 
 Una parte importantísima de utilizar archivos multimedia (imagen, video o audio) en una web, es saber elegir el formato adecuado para cada caso. Puede parecerlo, pero no siempre es una tarea sencilla, hay muchas cosas que hay que tener en cuenta:
 
