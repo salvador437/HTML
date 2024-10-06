@@ -23,7 +23,7 @@ A continuación, utilicemos la etiqueta <strong>STRONG</strong> (etiqueta utiliz
 
 ![alt text](./imagenes-que-es-html/image-2.png)
 
-Obsérvese que en el ejemplo estamos utilizando dos etiquetas diferentes. La etiqueta <p>, que contiene toda la frase, y la etiqueta <strong>strong</strong>, que contiene sólo la palabra palabra. La primera etiqueta, <p>, se utiliza para contener párrafos, mientras que la segunda etiqueta, <strong>strong</strong>, indica la palabra que tiene mayor importancia del texto.
+Obsérvese que en el ejemplo estamos utilizando dos etiquetas diferentes. La etiqueta < p >, que contiene toda la frase, y la etiqueta <strong>strong</strong>, que contiene sólo la palabra palabra. La primera etiqueta, < p >, se utiliza para contener párrafos, mientras que la segunda etiqueta, <strong>strong</strong>, indica la palabra que tiene mayor importancia del texto.
 
 También se habrá observado que se pueden anidar etiquetas, esto es, incluir etiquetas dentro de otras. Es algo que se hace continuamente en HTML y que a medida que avancemos se tornará en algo habitual.
 
@@ -33,7 +33,7 @@ Uno de los principales objetivos de HTML5 es introducir información en un docum
 En el documento HTML debe aparecer información correctamente individualizada, de modo que al leer una página HTML comprendamos su significado, y si queremos cambiar la apariencia, lo hagamos en el documento CSS. Esto es lo que comunmente se conoce como separación de la presentación del contenido.
 
 ## <span style="color:orange">Ejemplo de semántica HTML.</span>
-Un ejemplo donde se ve claramente este concepto es con la etiqueta <b> de HTML4</b> y anteriores. Dicha etiqueta se utilizaba para poner en negrita (bold) un texto específico:
+Un ejemplo donde se ve claramente este concepto es con la etiqueta < b > de HTML4< /b> y anteriores. Dicha etiqueta se utilizaba para poner en negrita (bold) un texto específico:
 
 ![alt text](./imagenes-que-es-html/image-3.png)
 
@@ -41,7 +41,7 @@ En este caso, se está utilizando una propiedad de presentación (visual) en el 
 
 ![alt text](./imagenes-que-es-html/image-4.png)
 
-En este nuevo ejemplo, se reemplaza la etiqueta <b> (negrita</b>, característica de presentación) por <strong>strong</strong>, una etiqueta que indica información semántica (importante, característica semántica). De esta forma, en el HTML5 sólo se está añadiendo información particular sobre fragmentos de texto, y si queremos dotar de presentación visual, lo haremos desde CSS.
+En este nuevo ejemplo, se reemplaza la etiqueta < b > (negrita< /b >, característica de presentación) por <strong>strong</strong>, una etiqueta que indica información semántica (importante, característica semántica). De esta forma, en el HTML5 sólo se está añadiendo información particular sobre fragmentos de texto, y si queremos dotar de presentación visual, lo haremos desde CSS.
 
 Así podríamos cambiar el estilo (negrita, colores, tipo de letra, etc...) independientemente de la información y contenido que existe en el HTML. Incluso podríamos establecer el mismo estilo que en el texto, para que visualmente se vea todo de forma uniforme, pero sin embargo, al leer la página HTML, el navegador sabrá siempre que fragmentos de texto son más importantes, aunque tenga el mismo estilo visual.
 
