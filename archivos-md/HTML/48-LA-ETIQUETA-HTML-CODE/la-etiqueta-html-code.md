@@ -48,4 +48,4 @@ vista:
 
 Esto puede resultar algo incómodo al escribir. Existen herramientas de preprocesamiento que pueden traducir nuestro código, de forma que el código HTML escrito dentro de una etiqueta < code >< /code> se modifique a sus respectivos "&"lt; y "&"gt;, haciendolo mucho más fácil para el desarrollador que escribe el texto. Por ejemplo, es algo que incorporan ciertos frameworks o herramientas donde escribes en markdown y se traduce a un HTML ya procesado.
 
-En el artículo bloques de código con la etiqueta < pre > hablamos sobre librerías Javascript para resaltar el código con colores u otras funcionalidades interesantes.
+En el artículo [bloques de código con la etiqueta < pre >](https://lenguajehtml.com/html/agrupacion/etiqueta-html-pre/) hablamos sobre librerías Javascript para resaltar el código con colores u otras funcionalidades interesantes.
