@@ -25,7 +25,7 @@ Intenta seguir las siguientes recomendaciones al dar un título a la página:
    - 3️⃣ El título debe ser descriptivo, breve y claro y reflejar el contenido de la página.
    - 4️⃣ Google no recomienda un tamaño ideal. Se suele decir que lo recomendable es entre 50-60 carácteres. Si es muy largo o corto, Google podría ignorarlo.
    - 5️⃣ No repitas palabras clave o textos pensando que se va a posicionar mejor en Google. Puede que incluso fuerces a que ocurra lo contrario.
-   - 6️⃣ Busca algo claro y útil para el usuario. Si necesitas aportar más información, utiliza la descripción con la etiqueta <meta name="description"> que explicaremos más adelante.
+   - 6️⃣ Busca algo claro y útil para el usuario. Si necesitas aportar más información, utiliza la descripción con la etiqueta < meta name="description" > que explicaremos más adelante.
 
 ## <span style="color:orange">Acceder al título desde Javascript.</span>
 Desde Javascript, es posible acceder al título de varias formas. La más sencilla es utilizando document.title, que es equivalente a acceder al atributo .text del elemento < title > del DOM:
