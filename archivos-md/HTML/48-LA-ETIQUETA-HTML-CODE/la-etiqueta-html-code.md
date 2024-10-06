@@ -36,3 +36,16 @@ Tienes más información sobre esto en el siguiente artículo: [bloques de códi
 Quizás te habrás dado cuenta de un pequeño problema, relacionado con las etiquetas < code >. Si quisieramos indicar código HTML literalmente en nuestro documento, este se interpretaría por el navegador, renderizando la etiqueta en lugar de mostrando el código.
 
 Para evitar esto, hay una forma muy sencilla que es reemplazar los carácteres < por "&"lt; (less than) y > por "&"gt; (great than). Al realizar ese cambio, observarás que las etiquetas se muestran literalmente:
+
+html:
+![alt text](./imagenes-la-etiqueta-html-code/image-8.png)
+
+css:
+![alt text](./imagenes-la-etiqueta-html-code/image-6.png)
+
+vista:
+![alt text](./imagenes-la-etiqueta-html-code/image-7.png)
+
+Esto puede resultar algo incómodo al escribir. Existen herramientas de preprocesamiento que pueden traducir nuestro código, de forma que el código HTML escrito dentro de una etiqueta < code >< /code> se modifique a sus respectivos "&"lt; y "&"gt;, haciendolo mucho más fácil para el desarrollador que escribe el texto. Por ejemplo, es algo que incorporan ciertos frameworks o herramientas donde escribes en markdown y se traduce a un HTML ya procesado.
+
+En el artículo bloques de código con la etiqueta < pre > hablamos sobre librerías Javascript para resaltar el código con colores u otras funcionalidades interesantes.
