@@ -26,7 +26,7 @@ Un pequeño ejemplo de esta etiqueta con los citados atributos:
 
 ![alt text](./imagenes-etiquetas-para-seo-google/image-3.png)
 
-## <span style="color:orange">La etiqueta <meta> robots.</span>
+## <span style="color:orange">La etiqueta < meta > robots.</span>
 Observa que la etiqueta < meta name="robots" > establecida en el ejemplo anterior, puede tener varios parámetros (separados por comas) para indicarle a Google diferentes detalles. Veamos que valores podemos establecer:
 
 ![alt text](./imagenes-etiquetas-para-seo-google/image-4.png)
