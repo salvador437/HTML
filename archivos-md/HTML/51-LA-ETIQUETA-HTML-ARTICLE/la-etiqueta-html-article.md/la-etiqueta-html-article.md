@@ -1,4 +1,4 @@
-# <span style="color:lime"><center>La etiqueta HTML <article>.<center></center></span>
+# <span style="color:lime"><center>La etiqueta HTML < article >.<center></center></span>
 
 Una de las etiquetas semánticas de sección más importantes de HTML5 es la etiqueta < article >. A diferencia de lo que muchos creen, no se trata de una etiqueta para definir artículos, como literalmente parece que indica, sino que sirve para definir partes con la suficientemente importancia como para considerarse una entidad destacable con información a su alrededor.
 
