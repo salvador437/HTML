@@ -1,4 +1,4 @@
-# <span style="color:lime">La etiqueta HTML < q > y < cite >.</span>
+# <span style="color:lime"><center>La etiqueta HTML < q > ycite <center>. </center></span>
 
 Imaginemos el caso en el que estamos escribiendo un texto, y en una de las cifras tenemos que indicar un superíndice para hacer referencia a una exponenciación: 10 elevado a 2, por ejemplo.
 

@@ -1,4 +1,4 @@
-# <span style="color:lime">La etiqueta HTML < small >.</span>
+# <span style="color:lime"><center>La etiqueta HTML small.<center></center></span>
 
 En algunas ocasiones, en un documento, necesitamos hacer pequeñas aclaraciones de ciertas partes del texto. Habitualmente, estas aclaraciones se hacen en una letra de tamaño más pequeño, que el lector puede leer si quiere profundizar o aclarar la información referenciada.
 

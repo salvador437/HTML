@@ -1,4 +1,4 @@
-# <span style="color:lime">La etiqueta HTML < mark >.</span>
+# <span style="color:lime"><center>La etiqueta HTML <center>mark.</center></span>
 
 En ciertos casos nos puede interesar utilizar una etiqueta HTML para destacar ciertos fragmentos de textos y dirigir la atención del lector a dichos textos. Es el caso de las etiquetas que vamos a detallar a continuación.
 

@@ -1,4 +1,4 @@
-# <span style="color:lime">La etiqueta HTML < q > y <span cite >.</span>
+# <span style="color:lime"><center>La etiqueta HTML < q > y cite.</center> </span>
 
 Si al redactar un texto en un documento web necesitamos hacer referencia a otra cosa, probablemente tengamos dudas de que elemento HTML utilizar para hacer la referencia. Existen varias etiquetas HTML que podrían ser apropiadas, vamos a explicar como funcionan y en que casos debemos utilizarlas:
 

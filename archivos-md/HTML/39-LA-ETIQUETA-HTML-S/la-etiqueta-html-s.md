@@ -1,4 +1,4 @@
-# <span style="color:lime">La etiqueta HTML < s >.</span>
+# <span style="color:lime"><center>La etiqueta HTML s <center>.</center></span>
 
 En ciertas ocasiones nos puede interesar marcar un fragmento de texto como irrelevante o impreciso, de forma que se muestre que la información estuvo presente durante un tiempo, pero se ha modificado posteriormente.
 

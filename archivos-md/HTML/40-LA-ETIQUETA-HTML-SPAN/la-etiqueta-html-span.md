@@ -1,4 +1,4 @@
-# <span style="color:lime">La etiqueta HTML < span >.</span>
+# <span style="color:lime"><center>La etiqueta HTML span<center>.</center></span>
 
 Hasta ahora, probablemente hayas utilizado la etiqueta < div > en tus documentos HTML. Se trata de una etiqueta que sirve para agrupar otras etiquetas y organizar la información de tu código HTML. Las etiquetas < div > son una de las etiquetas HTML más populares y se trata de una etiqueta de bloque.
 
