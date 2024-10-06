@@ -4,7 +4,7 @@ Si al redactar un texto en un documento web necesitamos hacer referencia a otra 
 
 ![alt text](./imagenes-la-etiqueta-html-q-cite/image.png)
 
-## <span style="color:orange">La etiqueta <q>.</>
+## <span style="color:orange">La etiqueta < q >.</>
 La etiqueta HTML < q > se utilizar para hacer referencia a una frase o mensaje desde otra fuente o contexto. Casos de uso típicos son citar una frase, un mensaje entrecomillado de otra persona, etc. Sin embargo, algunos casos no son los más apropiados para esta etiqueta < q >:
 
    - ✅ Citar frases, mensajes entrecomillados, etc...
@@ -51,3 +51,4 @@ Veamos un ejemplo donde la etiqueta < cite > estaría bien usada:
 En este caso hacemos referencia a una frase de Qui-Gon Jinn, en la película de Star Wars: Episodio I.
 
 Recuerda que si lo que quieres hacer es referenciar otra página para que el usuario pueda navegar a ella, lo que necesitas es un enlace < a >.
+
