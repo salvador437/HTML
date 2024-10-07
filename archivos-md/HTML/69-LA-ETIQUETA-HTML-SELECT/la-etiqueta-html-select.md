@@ -110,3 +110,4 @@ Lo hacemos así para ahorrarnos la petición externa y adjuntarla en el CSS, cos
 Existe una propuesta de una nueva etiqueta < selectlist > que nos permitirá hacer cosas muy potentes, como se puede ver en este ejemplo de < selectlist >. Listas desplegables con formas muy diversas, incluir imágenes dentro de un < select >, filtrado, listas con scroll, etc.
 
 Sin embargo, aún es muy pronto para hablar de ella, ya que está en fase experimental.
+
