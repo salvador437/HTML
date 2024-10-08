@@ -1,4 +1,4 @@
-# <span style="color:lime"><center>Etiqueta HTML <details>.</center></span>
+# <span style="color:lime"><center>Etiqueta HTML < details >.</center></span>
 
 En HTML5, aparecen algunas nuevas etiquetas que proporcionan características interactivas a una página o documento. En dichas etiquetas, el usuario debe tomar parte de forma activa para activarlas o utilizarlas.
 
