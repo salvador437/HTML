@@ -1,4 +1,4 @@
-# <span style="color:lime"><center>Los módulos Javascript (ESM).<center></center></span>
+# <span style="color:lime"><center>Los módulos Javascript (ESM).</center></span>
 
 Antiguamente, Javascript sólo se escribía en navegadores y en un sólo fichero Javascript. En el mejor de los casos, podíamos incluir varios ficheros en diferentes etiquetas < script >. Sin embargo, era complicado comunicar información entre unas y otras.
 
