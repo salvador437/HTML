@@ -1,9 +1,4 @@
-const u1a = Symbol("unique");
-const u2a = Symbol("unique");
- 
-const a = 5;
-const b = 23;
-console.log(a ^ b);
+
 
 /*
 Prototipado de objetos
@@ -89,4 +84,45 @@ const styles = `
 `;
 
 console.log("%c¡Hola Manz!", styles);
+
+setTimeout(() => console.log("ejecutado ahora"), 3000)
+
+function accion () {
+  console.log("ejecutada la funcion")
+}
+
+setTimeout(accion,4000)
+
+
+
+const task1 = (callback) => {
+  console.log("Iniciando tarea 1...");
+  setTimeout(() => {
+    callback();
+  }, 3000);
+};
+
+task1(() => console.log("Tarea 1 terminada en 3 segundos"));
+
+const doTask = () => {
+  return new Promise((resolve, reject) => {
+    // Obtenemos un número del 1 al 6
+    const number = 1 + Math.floor(Math.random() * 6);
+
+    // Si el número es 6, cumplimos la promesa
+    if (number === 6) {
+      resolve(number);
+    }
+
+    // Si no es 6, rechazamos la promesa
+    reject(number);
+  });
+};
+
+doTask()
+  .then((number) => console.log("¡Objetivo conseguido! ", number))
+  .catch((number) => console.error("Objetivo no conseguido: ", number));
+
+
+
 
