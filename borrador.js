@@ -104,7 +104,9 @@ const task1 = (callback) => {
 
 task1(() => console.log("Tarea 1 terminada en 3 segundos"));
 
-const doTask = () => {
+
+//promesas-------------------------------------------
+function doTask() {
   return new Promise((resolve, reject) => {
     // Obtenemos un número del 1 al 6
     const number = 1 + Math.floor(Math.random() * 6);
