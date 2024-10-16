@@ -5,7 +5,7 @@ En este artículo veremos como instalar y configurar zsh para tener una terminal
 ## <span style="color:orange">Instalar Z Shell (zsh).</span>
 El intérprete Z Shell (más conocido como zsh) es uno de los shells más conocidos de GNU/Linux, adoptado hace poco por Apple como su intérprete de terminal por defecto desde 2019. Hoy en día, quizás el más extendido es bash, sin embargo, zsh gana cada día más adeptos debido a su capacidad y potencia de personalización y su activa comunidad. Es una excelente alternativa a bash.
 
-![alt text](image.png)
+![alt text](imagenes-instalacion-de-zsh/image-12.png)
 Si tenemos un sistema recién instalado (o por defecto), lo más probable es que tengamos un bash o un sh (más simple). Lo primero que necesitamos tener instalado en nuestro sistema es el intérprete de zsh. Para instalarlo utilizaremos apt, que se encargará de buscar los paquetes necesarios y sus dependencias:
 
 ![alt text](./imagenes-instalacion-de-zsh/image.png)
