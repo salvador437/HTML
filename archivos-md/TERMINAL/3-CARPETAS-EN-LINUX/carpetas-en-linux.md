@@ -93,7 +93,6 @@ Linux tiene una estructura de carpetas bien definida, donde cada carpeta tiene u
 Desde esa ruta / nos podemos encontrar varias carpetas, cada una con una finalidad concreta:
 
 ![alt text](./imagenes-carpetas-en-linux/image-10.png)
-![alt text](./imagenes-carpetas-en-linux/image-11.png)
 
 Más adelante, en otro artículo, veremos como realizar otras operaciones de manipulación como copiar, borrar, mover y crear carpetas o ficheros.
 
