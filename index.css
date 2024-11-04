@@ -1,13 +1,28 @@
-header {
-  display: inline;
+body{
+  background-color: #222;
+}
+
+ul,li,a{
+  display:flex;
+  margin: 0;
+  padding: 10px;
+  font-size:  1.5rem;
+  text-decoration: none;
+  color:#f403c4;
+  & a:hover{
+    background-color: #f403c4;
+    color: aliceblue;
+    border-radius: 5px;
+  }
 }
 
 .text {
   font-size:2rem;
   font-family:helvetica;
   font-weight:bold;
-  color:#f40303;
+  color:#f403c4;
   text-transform:uppercase;
+  text-align: center;
 }
 .parpadea {
   
@@ -16,13 +31,13 @@ header {
   animation-timing-function:ease-in-out;
   animation-iteration-count: infinite;
 
-  -webkit-animation-name:parpadeo;
+  /* -webkit-animation-name:parpadeo;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite; */
 }
 
-@-moz-keyframes parpadeo{  
+/* @-moz-keyframes parpadeo{  
   0% { opacity: 1.0; }
   50% { opacity: 0.0; }
   100% { opacity: 1.0; }
@@ -32,7 +47,7 @@ header {
   0% { opacity: 1.0; }
   50% { opacity: 0.0; }
    100% { opacity: 1.0; }
-}
+} */
 
 @keyframes parpadeo {  
   0% { opacity: 1.0; }
