@@ -13,7 +13,7 @@ function factorial(n) {
 }
 
 // llamada  a la función factorial.
-console.log(factorial(23));
+console.log(factorial(23))
 
 // función para calcular el total de la compra del carrito
 function calcularTotalCarrito(carrito) {
