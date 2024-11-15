@@ -2,7 +2,7 @@
 function factorial(n) {
   console.log(`calculando factorial de ${n}`);
   if (n === 0) {
-    console.log(`Base 0: devuelve 1`);
+    console.log(`Base 0: devuelve 1 🧑`);
     return 1;
   } else {
     console.log(`llamada a factorial de ${n - 1}`);
@@ -13,15 +13,16 @@ function factorial(n) {
 }
 
 // llamada  a la función factorial.
-console.log(factorial(7))
+console.log(factorial(7));
 
 // función para calcular el total de la compra del carrito
 function calcularTotalCarrito(carrito) {
-  let totalCompra = carrito.reduce((total, producto) => total + producto.precio * producto.cantidad,
+  let totalCompra = carrito.reduce(
+    (total, producto) => total + producto.precio * producto.cantidad,
     0
   );
-  return totalCompra
-}  
+  return totalCompra;
+}
 // Puede ser un objeto más extenso.
 const carrito = [
   { nombre: "Camisa", precio: 20, cantidad: 2 },
@@ -30,11 +31,10 @@ const carrito = [
   { nombre: "calcetines", precio: 10, cantidad: 2 },
   { nombre: "sudadera", precio: 40, cantidad: 1 },
   { nombre: "guanyes", precio: 70, cantidad: 2 },
-
 ];
 // * resultado de llamar a la función.
 const totalCarrito = calcularTotalCarrito(carrito);
-console.log(`El total del carrito es: ${totalCarrito } Euros.`); // imprime 220.
+console.log(`El total del carrito es: ${totalCarrito} Euros.`); // imprime 220.
 
 // swap de variables
 let a = 5;
