@@ -16,7 +16,7 @@ let animal = {
   },
 
   cagar() {
-    console.log("animal cagando");
+    console.log("animal come");
   },
 
   calcularLetraDNI(dni) {
