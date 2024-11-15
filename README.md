@@ -177,7 +177,7 @@ En el ejemplo anterior, dado que a es false, el operador && sabe que la expresi�
 
 ## <span style="color:orange">La instrucción "for" 👨🏻‍🎓</span>
 
-La instrucción for ejecuta el código entre llaves mientras la condición es verdadera. Usa la sintaxis for(inicialización; condición incremento). El primer parámetro
+La instrucción for ejecuta el código entre llaves mientras la condición es verdadera. Usa la sintaxis for(inicialización; condición; incremento). El primer parámetro
 establece los valores iniciales del bucle, el segundo parámetro es la condición que queremos
 comprobar y el último parámetro es una instrucción que determina cómo van a evolucionar
 los valores iniciales en cada ciclo.
