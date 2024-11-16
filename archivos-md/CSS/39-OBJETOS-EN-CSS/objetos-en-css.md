@@ -1,6 +1,6 @@
 # <span style="color:lime"><center>Objetos en CSS</center></span>
 
-En CSS, se denominan objetos a imágenes a través de la etiqueta <img>, elementos multimedia a través de <video> u otros elementos como <textarea> o <input>, por ejemplo. Dichos elementos tienen su propia forma de mostrarse en pantalla ya que tienen características ajenas a CSS.
+En CSS, se denominan objetos a imágenes a través de la etiqueta < img >, elementos multimedia a través de < video > u otros elementos como < textarea > o < input >, por ejemplo. Dichos elementos tienen su propia forma de mostrarse en pantalla ya que tienen características ajenas a CSS.
 
 Por dicha razón, muchas veces estos objetos tienen un tamaño inicial que no encaja con el uso que queremos darle, no se adapta a las cajas o contenedores que usamos o no funciona como tenemos previsto que lo haga.
 
@@ -14,7 +14,7 @@ Aquí puedes ver una tabla resumen de las propiedades que vamos a analizar:
 Veamos detalladamente, una por una.
 
 ## <span style="color:violet"><center>La propiedad object-fit</center></span>
-La propiedad object-fit nos va a permitir cambiar el modo en el que se rellena o adapta una imagen <img> (o cualquier otro objeto de representación externa a CSS) en su contenedor padre o en si mismo. Los valores que puede tomar dicha propiedad son los siguientes:
+La propiedad object-fit nos va a permitir cambiar el modo en el que se rellena o adapta una imagen < img > (o cualquier otro objeto de representación externa a CSS) en su contenedor padre o en si mismo. Los valores que puede tomar dicha propiedad son los siguientes:
 
 ![alt text](./imagenes-objetos-en-css/image-1.png)
 

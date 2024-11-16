@@ -1,4 +1,4 @@
-# <span style="color:lime"><center>Visibilidad de elementoss</center></span>
+# <span style="color:lime"><center>Visibilidad de elementos</center></span>
 
 Una de las necesidades básicas en CSS es la de mostrar y ocultar elementos. Sin embargo, esta aparentemente funcionalidad, tiene múltiples formas de conseguirse, así como matices concretos y enfoques diferentes para obtener resultados parecidos, pero no exactamente iguales.
 
