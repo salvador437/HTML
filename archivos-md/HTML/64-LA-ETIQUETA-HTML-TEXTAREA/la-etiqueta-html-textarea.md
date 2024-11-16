@@ -1,4 +1,4 @@
-# <span style="color:lime"><center>La etiqueta HTML < textarea >.<center></center></span>
+# <span style="color:lime"><center>La etiqueta HTML < textarea >.</center></span>
 
 Si queremos indicar un campo para escribir textos extensos, probablemente la etiqueta HTML < input > se nos quede corta o sea incómoda. Lo más apropiado sería utilizar la etiqueta HTML < textarea >, que nos permite escribir párrafos y líneas de contenido de texto sin restricciones.
 
