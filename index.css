@@ -27,6 +27,11 @@ a:hover{
   color: white;
 }
 
+.header{
+  border: 1px solid #d1740a;
+  border-radius: 10px;
+}
+
 .items{
   color: #fff;
   background-color: rgb(18, 17, 19);
@@ -34,6 +39,7 @@ a:hover{
   flex-direction: column;
   text-align: center;
   font-size: 2em;
+  margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
   padding-bottom: 10px;
